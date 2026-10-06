@@ -1,0 +1,183 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "6e86ea5fac064c99971e",
+  "position": {
+    "x": 670,
+    "y": 428,
+    "z": 16000,
+    "height": 258,
+    "width": 590,
+    "tabOrder": 14000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "Game Label"
+                }
+              },
+              "queryRef": "games.Game Label",
+              "nativeQueryRef": "Game Label",
+              "displayName": "Game"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "opponent_tier"
+                }
+              },
+              "queryRef": "games.opponent_tier",
+              "nativeQueryRef": "opponent_tier",
+              "displayName": "Tier"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "weekday"
+                }
+              },
+              "queryRef": "games.weekday",
+              "nativeQueryRef": "weekday",
+              "displayName": "Day"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Tickets Sold"
+                }
+              },
+              "queryRef": "_Measures.Tickets Sold",
+              "nativeQueryRef": "Tickets Sold",
+              "displayName": "Sold"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Unsold Seats"
+                }
+              },
+              "queryRef": "_Measures.Unsold Seats",
+              "nativeQueryRef": "Unsold Seats",
+              "displayName": "Unsold"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sell-Through %"
+                }
+              },
+              "queryRef": "_Measures.Sell-Through %",
+              "nativeQueryRef": "Sell-Through %",
+              "displayName": "Sell-through"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "No-Show Rate %"
+                }
+              },
+              "queryRef": "_Measures.No-Show Rate %",
+              "nativeQueryRef": "No-Show Rate %",
+              "displayName": "No-show"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Avg Ticket Price"
+                }
+              },
+              "queryRef": "_Measures.Avg Ticket Price",
+              "nativeQueryRef": "Avg Ticket Price",
+              "displayName": "Avg price"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Sell-Through %"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Games needing promotional support (lowest sell-through first)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

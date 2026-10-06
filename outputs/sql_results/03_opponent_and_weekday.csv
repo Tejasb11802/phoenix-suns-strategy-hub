@@ -1,0 +1,7 @@
+opponent_tier,day_type,games,avg_sell_through_pct,avg_no_show_pct,avg_ticket_price,avg_ticket_revenue,avg_unsold_seats
+Marquee,Weekday,8,90.0,13.9,120.08,1837922.0,1694.0
+Marquee,Weekend,4,99.2,10.4,130.47,2200667.0,134.0
+Standard,Weekday,13,82.4,18.3,99.52,1393663.0,2996.0
+Standard,Weekend,7,89.3,13.6,105.05,1594050.0,1825.0
+Value,Weekday,6,76.2,25.2,92.74,1200729.0,4053.0
+Value,Weekend,3,84.6,19.4,94.94,1365128.0,2620.0

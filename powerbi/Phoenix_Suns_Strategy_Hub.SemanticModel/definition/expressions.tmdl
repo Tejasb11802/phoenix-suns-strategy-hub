@@ -1,0 +1,5 @@
+expression DataFolder = "C:\Users\Tejas\tejas_python\phoenix-suns-strategy-hub\data\clean" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 64358eb4-0493-4ecc-a178-45af06bcdd6f
+
+	annotation PBI_ResultType = Text
+

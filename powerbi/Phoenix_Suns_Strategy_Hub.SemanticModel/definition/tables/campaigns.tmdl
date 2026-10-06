@@ -1,0 +1,109 @@
+table campaigns
+	lineageTag: 6eb7e1e9-9524-40f0-b259-2cff09c881fc
+
+	column campaign_id
+		dataType: string
+		lineageTag: f1004dcd-1d62-4b82-ad6c-b529994cb3b6
+		summarizeBy: none
+		sourceColumn: campaign_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_name
+		dataType: string
+		lineageTag: 410deade-f735-4b87-b9a2-db572f2156ea
+		summarizeBy: none
+		sourceColumn: campaign_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_type
+		dataType: string
+		lineageTag: c25e15af-efbb-416e-aa60-cb2611adf033
+		summarizeBy: none
+		sourceColumn: campaign_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel
+		dataType: string
+		lineageTag: bf55f3aa-cbcf-428a-aa6d-254412959fd7
+		summarizeBy: none
+		sourceColumn: channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_segment
+		dataType: string
+		lineageTag: 5c743d8e-a3cc-4b4f-b510-3dbd8b6256b2
+		summarizeBy: none
+		sourceColumn: target_segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column send_date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: e4c24a06-8229-4f39-be11-c3df00e4856d
+		summarizeBy: none
+		sourceColumn: send_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cost
+		dataType: double
+		lineageTag: e431a363-1121-4c4d-aadf-d1a83880609f
+		summarizeBy: sum
+		sourceColumn: cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column impressions
+		dataType: int64
+		formatString: 0
+		lineageTag: a4abc708-1de9-4bd4-9cc2-d5fd152623e9
+		summarizeBy: sum
+		sourceColumn: impressions
+
+		annotation SummarizationSetBy = Automatic
+
+	column clicks
+		dataType: int64
+		formatString: 0
+		lineageTag: 6220b08c-fcaa-4df7-b5eb-91bad55d8a11
+		summarizeBy: sum
+		sourceColumn: clicks
+
+		annotation SummarizationSetBy = Automatic
+
+	column conversions
+		dataType: int64
+		formatString: 0
+		lineageTag: 06973c4b-bb8e-48f4-b5ed-f9568d294c62
+		summarizeBy: sum
+		sourceColumn: conversions
+
+		annotation SummarizationSetBy = Automatic
+
+	column revenue_generated
+		dataType: double
+		lineageTag: 01608260-b191-4ffa-92cf-eaa68fb34c6d
+		summarizeBy: sum
+		sourceColumn: revenue_generated
+
+		annotation SummarizationSetBy = Automatic
+
+	partition campaigns = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\campaigns.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"campaign_id", type text}, {"campaign_name", type text}, {"campaign_type", type text}, {"channel", type text}, {"target_segment", type text}, {"send_date", type date}, {"cost", type number}, {"impressions", Int64.Type}, {"clicks", Int64.Type}, {"conversions", Int64.Type}, {"revenue_generated", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

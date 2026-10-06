@@ -1,0 +1,196 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "7182c29db77647f6b41b",
+  "position": {
+    "x": 840,
+    "y": 428,
+    "z": 16000,
+    "height": 258,
+    "width": 420,
+    "tabOrder": 14000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "fan_id"
+                }
+              },
+              "queryRef": "fan_segments.fan_id",
+              "nativeQueryRef": "fan_id",
+              "displayName": "Fan"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fans"
+                    }
+                  },
+                  "Property": "city"
+                }
+              },
+              "queryRef": "fans.city",
+              "nativeQueryRef": "city",
+              "displayName": "City"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "games_purchased"
+                }
+              },
+              "queryRef": "fan_segments.games_purchased",
+              "nativeQueryRef": "games_purchased",
+              "displayName": "Games"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "total_spend"
+                }
+              },
+              "queryRef": "fan_segments.total_spend",
+              "nativeQueryRef": "total_spend",
+              "displayName": "Spend"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "recency_days"
+                }
+              },
+              "queryRef": "fan_segments.recency_days",
+              "nativeQueryRef": "recency_days",
+              "displayName": "Days since last game"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fan_segments"
+                  }
+                },
+                "Property": "total_spend"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'At-risk fans: retention target list'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filterb9aacee7da8f446188f8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "fan_segments"
+              }
+            },
+            "Property": "segment"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "t",
+              "Entity": "fan_segments",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "t"
+                          }
+                        },
+                        "Property": "segment"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'At-Risk Fan'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+segment,fans,total_revenue,pct_of_revenue,avg_spend_per_fan,avg_games,attendance_rate_pct,avg_engagement_score,avg_rfm_score
+Season Ticket Member,2900,33834151.0,52.8,11667.0,41.0,75.6,45.0,15.0
+High-Value Fan,4030,13539971.0,21.1,3360.0,8.6,93.0,75.0,13.8
+Repeat Attendee,9763,6678010.0,10.4,684.0,3.3,93.1,72.0,10.9
+At-Risk Fan,6471,5565837.0,8.7,860.0,3.0,93.4,74.0,8.6
+Lapsed One-Time Buyer,10248,2867170.0,4.5,280.0,1.0,92.4,72.0,4.9
+First-Time Buyer,5706,1596628.0,2.5,280.0,1.0,93.2,66.0,7.1
+Prospect,33782,0.0,0.0,0.0,0.0,,0.0,0.0

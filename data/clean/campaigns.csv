@@ -1,0 +1,13 @@
+campaign_id,campaign_name,campaign_type,channel,target_segment,send_date,cost,impressions,clicks,conversions,revenue_generated
+C01,Opening Night Launch,Acquisition,Email,Prospects,2025-10-01,8500,14000,1323,476,134512.87
+C02,New Fan Social Offer,Acquisition,Paid Social,Prospects,2025-11-03,40000,18000,664,198,62718.35
+C03,Holiday Family Pack,Promotion,Email,Past Buyers,2025-12-01,13000,12000,1694,696,212877.58
+C04,Weeknight Value Bundle,Promotion,SMS,Past Buyers,2026-01-05,15000,8000,1575,624,185947.46
+C05,We Miss You Email,Win-Back,Email,Lapsed Buyers,2026-01-14,9000,8500,564,255,81950.75
+C06,Mini Plan Invitation,Upsell,Email,Frequent Buyers,2026-01-20,7000,2800,706,322,112280.17
+C07,College Night Social,Acquisition,Paid Social,Prospects,2026-02-02,28000,14000,434,140,39554.93
+C08,Second Game Offer,Retention,Email,Past Buyers,2026-02-16,11000,10000,1300,520,150674.11
+C09,App Flash Sale,Promotion,Push,Past Buyers,2026-03-01,6000,13000,1338,546,135993.4
+C10,Come Back SMS,Win-Back,SMS,Lapsed Buyers,2026-03-05,10000,4500,627,207,46862.22
+C11,Fan Appreciation Finale,Retention,Email,Past Buyers,2026-03-22,14000,15000,1931,810,242624.5
+C12,Search Retargeting,Acquisition,Paid Search,Prospects,2026-03-01,20000,9000,587,189,43379.83

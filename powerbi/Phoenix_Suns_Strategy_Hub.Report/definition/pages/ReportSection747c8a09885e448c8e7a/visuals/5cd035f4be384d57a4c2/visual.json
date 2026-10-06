@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "5cd035f4be384d57a4c2",
+  "position": {
+    "x": 860,
+    "y": 162,
+    "z": 13000,
+    "height": 258,
+    "width": 400,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "weekday"
+                }
+              },
+              "queryRef": "games.weekday",
+              "nativeQueryRef": "weekday",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "opponent_tier"
+                }
+              },
+              "queryRef": "games.opponent_tier",
+              "nativeQueryRef": "opponent_tier",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sell-Through %"
+                }
+              },
+              "queryRef": "_Measures.Sell-Through %",
+              "nativeQueryRef": "Sell-Through %"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Sell-through: opponent tier by weekday'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

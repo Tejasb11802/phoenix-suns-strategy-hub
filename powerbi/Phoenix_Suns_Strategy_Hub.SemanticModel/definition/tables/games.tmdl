@@ -1,0 +1,118 @@
+table games
+	lineageTag: 3765c0de-d4e1-4d6a-8500-1af5a5e415f5
+
+	column game_id
+		dataType: string
+		lineageTag: c507ad27-d86d-477c-8fec-dda2540490cb
+		summarizeBy: none
+		sourceColumn: game_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column opponent
+		dataType: string
+		lineageTag: b19d128a-d00b-4e47-b1fd-110d11f1265b
+		summarizeBy: none
+		sourceColumn: opponent
+
+		annotation SummarizationSetBy = Automatic
+
+	column game_date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 4ade30d1-a8df-4649-be6b-18dc92b4d63e
+		summarizeBy: none
+		sourceColumn: game_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column weekday
+		dataType: string
+		lineageTag: eaf23383-21f1-43e3-883b-6347bcfec0e6
+		summarizeBy: none
+		sourceColumn: weekday
+		sortByColumn: 'Day Sort'
+
+		annotation SummarizationSetBy = Automatic
+
+	column day_type
+		dataType: string
+		lineageTag: 72410c33-aa55-41ea-a3b8-05329b3a9fd6
+		summarizeBy: none
+		sourceColumn: day_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column game_type
+		dataType: string
+		lineageTag: aeef4586-65e9-4628-bc08-e21eff6106eb
+		summarizeBy: none
+		sourceColumn: game_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column home_away
+		dataType: string
+		lineageTag: d83341a7-2584-4c9b-9c8d-ce01954026b7
+		summarizeBy: none
+		sourceColumn: home_away
+
+		annotation SummarizationSetBy = Automatic
+
+	column opponent_tier
+		dataType: string
+		lineageTag: 45943633-96ae-4ab6-80b5-dc574109cef7
+		summarizeBy: none
+		sourceColumn: opponent_tier
+
+		annotation SummarizationSetBy = Automatic
+
+	column capacity
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d1fa983-b0a3-4998-ae15-ce2b5510ba63
+		summarizeBy: sum
+		sourceColumn: capacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Game Label' = FORMAT ( games[game_date], "MMM DD" ) & " " & games[opponent]
+		lineageTag: 6b7f2b9c-d59e-4624-a9d1-11bead2540bc
+		summarizeBy: none
+		sortByColumn: game_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month = FORMAT ( games[game_date], "MMM YYYY" )
+		lineageTag: fd22d0d1-0159-4fb8-82d8-7c9b1fd35e4b
+		summarizeBy: none
+		sortByColumn: 'Month Sort'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Sort' = YEAR ( games[game_date] ) * 100 + MONTH ( games[game_date] )
+		lineageTag: 19eace1c-6afe-4638-8b62-d9909f00526f
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Sort' = WEEKDAY ( games[game_date], 2 )
+		lineageTag: f872861f-6ddf-45ce-b816-5ffda79ec9ea
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition games = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\games.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"game_id", type text}, {"opponent", type text}, {"game_date", type date}, {"weekday", type text}, {"day_type", type text}, {"game_type", type text}, {"home_away", type text}, {"opponent_tier", type text}, {"capacity", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

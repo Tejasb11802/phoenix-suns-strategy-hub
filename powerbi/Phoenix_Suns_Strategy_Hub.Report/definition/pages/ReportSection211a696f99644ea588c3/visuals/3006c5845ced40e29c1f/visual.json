@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "3006c5845ced40e29c1f",
+  "position": {
+    "x": 860,
+    "y": 162,
+    "z": 13000,
+    "height": 258,
+    "width": 400,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sponsorship"
+                    }
+                  },
+                  "Property": "activation_name"
+                }
+              },
+              "queryRef": "sponsorship.activation_name",
+              "nativeQueryRef": "activation_name",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sponsorship"
+                    }
+                  },
+                  "Property": "sponsor_name"
+                }
+              },
+              "queryRef": "sponsorship.sponsor_name",
+              "nativeQueryRef": "sponsor_name",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sponsor Engagements"
+                }
+              },
+              "queryRef": "_Measures.Sponsor Engagements",
+              "nativeQueryRef": "Sponsor Engagements"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Engagements: partner by activation'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

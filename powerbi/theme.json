@@ -1,0 +1,15 @@
+{
+  "name": "Suns Executive",
+  "dataColors": ["#1D1160", "#E56020", "#63727A", "#8C7BB8", "#F9AD1B", "#000000", "#B95915", "#D9D3E8"],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#1D1160",
+  "good": "#2E8B57",
+  "neutral": "#63727A",
+  "bad": "#E56020",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1D1160" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#252423" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#1D1160" }
+  }
+}

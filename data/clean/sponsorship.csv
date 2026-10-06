@@ -1,0 +1,821 @@
+sponsorship_id,sponsor_id,sponsor_name,activation_name,game_id,impressions,engagements,estimated_value
+SP00001,S01,Copper State Bank,Courtside LED Signage,G01,1311939,599,15953.2
+SP00002,S01,Copper State Bank,Courtside LED Signage,G02,1644591,576,19936.85
+SP00003,S01,Copper State Bank,Courtside LED Signage,G03,1540212,890,18794.06
+SP00004,S01,Copper State Bank,Courtside LED Signage,G04,1257418,475,15255.57
+SP00005,S01,Copper State Bank,Courtside LED Signage,G05,1422608,527,17255.83
+SP00006,S01,Copper State Bank,Courtside LED Signage,G06,1858395,966,22638.9
+SP00007,S01,Copper State Bank,Courtside LED Signage,G07,1809927,676,21955.8
+SP00008,S01,Copper State Bank,Courtside LED Signage,G08,1642359,599,19918.29
+SP00009,S01,Copper State Bank,Courtside LED Signage,G09,1526032,777,18584.55
+SP00010,S01,Copper State Bank,Courtside LED Signage,G10,1598203,679,19416.14
+SP00011,S01,Copper State Bank,Courtside LED Signage,G11,1407921,665,17128.11
+SP00012,S01,Copper State Bank,Courtside LED Signage,G12,1868698,801,22704.99
+SP00013,S01,Copper State Bank,Courtside LED Signage,G13,1523412,538,18469.3
+SP00014,S01,Copper State Bank,Courtside LED Signage,G14,1836511,768,22307.22
+SP00015,S01,Copper State Bank,Courtside LED Signage,G15,1505724,595,18277.14
+SP00016,S01,Copper State Bank,Courtside LED Signage,G16,1255175,562,15258.96
+SP00017,S01,Copper State Bank,Courtside LED Signage,G17,1503843,688,18287.05
+SP00018,S01,Copper State Bank,Courtside LED Signage,G18,1067963,449,12972.81
+SP00019,S01,Copper State Bank,Courtside LED Signage,G19,1445640,660,17578.96
+SP00020,S01,Copper State Bank,Courtside LED Signage,G20,1193454,438,14474.94
+SP00021,S01,Copper State Bank,Courtside LED Signage,G21,1763382,594,21368.65
+SP00022,S01,Copper State Bank,Courtside LED Signage,G22,1762545,686,21390.76
+SP00023,S01,Copper State Bank,Courtside LED Signage,G23,1485277,723,18076.72
+SP00024,S01,Copper State Bank,Courtside LED Signage,G24,1404733,632,17078.05
+SP00025,S01,Copper State Bank,Courtside LED Signage,G25,1220183,578,14844.7
+SP00026,S01,Copper State Bank,Courtside LED Signage,G26,1894445,783,23007.65
+SP00027,S01,Copper State Bank,Courtside LED Signage,G27,1877536,871,22835.59
+SP00028,S01,Copper State Bank,Courtside LED Signage,G28,1562408,697,18993.11
+SP00029,S01,Copper State Bank,Courtside LED Signage,G29,1649584,807,20077.5
+SP00030,S01,Copper State Bank,Courtside LED Signage,G30,1246640,531,15145.85
+SP00031,S01,Copper State Bank,Courtside LED Signage,G31,2001985,737,24281.91
+SP00032,S01,Copper State Bank,Courtside LED Signage,G32,1861658,822,22627.77
+SP00033,S01,Copper State Bank,Courtside LED Signage,G33,1578741,709,19193.12
+SP00034,S01,Copper State Bank,Courtside LED Signage,G34,1090754,451,13247.19
+SP00035,S01,Copper State Bank,Courtside LED Signage,G35,1453320,603,17651.04
+SP00036,S01,Copper State Bank,Courtside LED Signage,G36,1157498,578,14092.32
+SP00037,S01,Copper State Bank,Courtside LED Signage,G37,1627013,650,19751.9
+SP00038,S01,Copper State Bank,Courtside LED Signage,G38,1764186,713,21419.91
+SP00039,S01,Copper State Bank,Courtside LED Signage,G39,1155375,523,14047.6
+SP00040,S01,Copper State Bank,Courtside LED Signage,G40,1290995,520,15674.05
+SP00041,S01,Copper State Bank,Courtside LED Signage,G41,1613828,548,19557.77
+SP00042,S01,Copper State Bank,Halftime Contest,G01,5624,441,368.38
+SP00043,S01,Copper State Bank,Halftime Contest,G02,4714,297,283.37
+SP00044,S01,Copper State Bank,Halftime Contest,G03,6270,486,408.49
+SP00045,S01,Copper State Bank,Halftime Contest,G04,4528,387,307.64
+SP00046,S01,Copper State Bank,Halftime Contest,G05,4785,357,306.81
+SP00047,S01,Copper State Bank,Halftime Contest,G06,6755,567,455.37
+SP00048,S01,Copper State Bank,Halftime Contest,G07,6738,423,404.16
+SP00049,S01,Copper State Bank,Halftime Contest,G08,6886,518,443.02
+SP00050,S01,Copper State Bank,Halftime Contest,G09,5416,464,368.59
+SP00051,S01,Copper State Bank,Halftime Contest,G10,6253,518,419.02
+SP00052,S01,Copper State Bank,Halftime Contest,G11,5265,418,346.48
+SP00053,S01,Copper State Bank,Halftime Contest,G12,7147,544,462.27
+SP00054,S01,Copper State Bank,Halftime Contest,G13,6503,534,434.12
+SP00055,S01,Copper State Bank,Halftime Contest,G14,6065,428,380.39
+SP00056,S01,Copper State Bank,Halftime Contest,G15,5476,343,328.35
+SP00057,S01,Copper State Bank,Halftime Contest,G16,4064,298,258.92
+SP00058,S01,Copper State Bank,Halftime Contest,G17,5630,447,370.52
+SP00059,S01,Copper State Bank,Halftime Contest,G18,5681,496,389.72
+SP00060,S01,Copper State Bank,Halftime Contest,G19,5463,339,326.41
+SP00061,S01,Copper State Bank,Halftime Contest,G20,4559,397,312.33
+SP00062,S01,Copper State Bank,Halftime Contest,G21,5993,402,368.77
+SP00063,S01,Copper State Bank,Halftime Contest,G22,6045,436,382.34
+SP00064,S01,Copper State Bank,Halftime Contest,G23,5549,463,373.11
+SP00065,S01,Copper State Bank,Halftime Contest,G24,4836,343,303.86
+SP00066,S01,Copper State Bank,Halftime Contest,G25,4326,309,272.86
+SP00067,S01,Copper State Bank,Halftime Contest,G26,7092,574,470.62
+SP00068,S01,Copper State Bank,Halftime Contest,G27,6043,523,412.98
+SP00069,S01,Copper State Bank,Halftime Contest,G28,5349,409,346.7
+SP00070,S01,Copper State Bank,Halftime Contest,G29,5439,424,355.36
+SP00071,S01,Copper State Bank,Halftime Contest,G30,5320,378,334.68
+SP00072,S01,Copper State Bank,Halftime Contest,G31,7091,647,496.06
+SP00073,S01,Copper State Bank,Halftime Contest,G32,5560,415,356.67
+SP00074,S01,Copper State Bank,Halftime Contest,G33,4910,345,307.46
+SP00075,S01,Copper State Bank,Halftime Contest,G34,4845,338,302.69
+SP00076,S01,Copper State Bank,Halftime Contest,G35,4561,389,309.72
+SP00077,S01,Copper State Bank,Halftime Contest,G36,4541,364,300.27
+SP00078,S01,Copper State Bank,Halftime Contest,G37,5001,412,334.26
+SP00079,S01,Copper State Bank,Halftime Contest,G38,5257,386,335.0
+SP00080,S01,Copper State Bank,Halftime Contest,G39,5306,433,353.21
+SP00081,S01,Copper State Bank,Halftime Contest,G40,4541,359,298.38
+SP00082,S01,Copper State Bank,Halftime Contest,G41,6534,419,395.05
+SP00083,S01,Copper State Bank,Social Content Series,G01,826500,33041,19003.14
+SP00084,S01,Copper State Bank,Social Content Series,G02,657646,24455,14478.09
+SP00085,S01,Copper State Bank,Social Content Series,G03,916470,31166,19156.67
+SP00086,S01,Copper State Bank,Social Content Series,G04,533329,20905,12116.86
+SP00087,S01,Copper State Bank,Social Content Series,G05,831074,31423,18477.95
+SP00088,S01,Copper State Bank,Social Content Series,G06,1023381,33309,20868.82
+SP00089,S01,Copper State Bank,Social Content Series,G07,885114,30542,18655.77
+SP00090,S01,Copper State Bank,Social Content Series,G08,947180,30374,19155.55
+SP00091,S01,Copper State Bank,Social Content Series,G09,735260,24740,15276.61
+SP00092,S01,Copper State Bank,Social Content Series,G10,1003936,36444,21791.0
+SP00093,S01,Copper State Bank,Social Content Series,G11,856282,34410,19750.32
+SP00094,S01,Copper State Bank,Social Content Series,G12,940376,36045,21079.47
+SP00095,S01,Copper State Bank,Social Content Series,G13,1087734,33690,21581.32
+SP00096,S01,Copper State Bank,Social Content Series,G14,976469,36467,21551.7
+SP00097,S01,Copper State Bank,Social Content Series,G15,935609,30453,19079.11
+SP00098,S01,Copper State Bank,Social Content Series,G16,675361,23794,14406.49
+SP00099,S01,Copper State Bank,Social Content Series,G17,745685,26078,15838.55
+SP00100,S01,Copper State Bank,Social Content Series,G18,822385,27253,16940.36
+SP00101,S01,Copper State Bank,Social Content Series,G19,796026,19255,13903.54
+SP00102,S01,Copper State Bank,Social Content Series,G20,558609,22842,13022.2
+SP00103,S01,Copper State Bank,Social Content Series,G21,937249,32041,19649.73
+SP00104,S01,Copper State Bank,Social Content Series,G22,948256,35483,20953.54
+SP00105,S01,Copper State Bank,Social Content Series,G23,851631,24381,16198.19
+SP00106,S01,Copper State Bank,Social Content Series,G24,698472,22646,14212.5
+SP00107,S01,Copper State Bank,Social Content Series,G25,649971,24918,14571.06
+SP00108,S01,Copper State Bank,Social Content Series,G26,1237628,41272,25584.06
+SP00109,S01,Copper State Bank,Social Content Series,G27,778541,25395,15895.15
+SP00110,S01,Copper State Bank,Social Content Series,G28,816572,27431,16950.33
+SP00111,S01,Copper State Bank,Social Content Series,G29,849107,34582,19745.94
+SP00112,S01,Copper State Bank,Social Content Series,G30,670629,25165,14843.55
+SP00113,S01,Copper State Bank,Social Content Series,G31,1178670,46887,27018.64
+SP00114,S01,Copper State Bank,Social Content Series,G32,829985,25815,16505.19
+SP00115,S01,Copper State Bank,Social Content Series,G33,749561,26040,15860.33
+SP00116,S01,Copper State Bank,Social Content Series,G34,598893,18126,11734.42
+SP00117,S01,Copper State Bank,Social Content Series,G35,720560,28646,16511.45
+SP00118,S01,Copper State Bank,Social Content Series,G36,789045,24816,15787.34
+SP00119,S01,Copper State Bank,Social Content Series,G37,705500,23125,14443.55
+SP00120,S01,Copper State Bank,Social Content Series,G38,671032,25902,15105.12
+SP00121,S01,Copper State Bank,Social Content Series,G39,684306,22801,14139.34
+SP00122,S01,Copper State Bank,Social Content Series,G40,691152,28054,16039.54
+SP00123,S01,Copper State Bank,Social Content Series,G41,1194464,44160,26206.41
+SP00124,S02,Saguaro Auto Group,Courtside LED Signage,G01,1429170,281,17248.43
+SP00125,S02,Saguaro Auto Group,Courtside LED Signage,G02,1683348,459,20361.08
+SP00126,S02,Saguaro Auto Group,Courtside LED Signage,G03,1529003,351,18471.16
+SP00127,S02,Saguaro Auto Group,Courtside LED Signage,G04,1155295,325,13977.43
+SP00128,S02,Saguaro Auto Group,Courtside LED Signage,G05,1434735,412,17361.27
+SP00129,S02,Saguaro Auto Group,Courtside LED Signage,G06,2024981,440,24453.87
+SP00130,S02,Saguaro Auto Group,Courtside LED Signage,G07,1946047,494,23525.62
+SP00131,S02,Saguaro Auto Group,Courtside LED Signage,G08,1444302,473,17497.32
+SP00132,S02,Saguaro Auto Group,Courtside LED Signage,G09,1486539,321,17951.14
+SP00133,S02,Saguaro Auto Group,Courtside LED Signage,G10,1320317,283,15943.0
+SP00134,S02,Saguaro Auto Group,Courtside LED Signage,G11,1351809,315,16332.03
+SP00135,S02,Saguaro Auto Group,Courtside LED Signage,G12,1809489,439,21867.64
+SP00136,S02,Saguaro Auto Group,Courtside LED Signage,G13,1416254,318,17106.51
+SP00137,S02,Saguaro Auto Group,Courtside LED Signage,G14,1966666,314,23710.1
+SP00138,S02,Saguaro Auto Group,Courtside LED Signage,G15,1326539,402,16059.34
+SP00139,S02,Saguaro Auto Group,Courtside LED Signage,G16,1329022,267,16041.99
+SP00140,S02,Saguaro Auto Group,Courtside LED Signage,G17,1527665,382,18465.86
+SP00141,S02,Saguaro Auto Group,Courtside LED Signage,G18,1147068,322,13877.82
+SP00142,S02,Saguaro Auto Group,Courtside LED Signage,G19,1478671,363,17871.17
+SP00143,S02,Saguaro Auto Group,Courtside LED Signage,G20,1301405,305,15723.8
+SP00144,S02,Saguaro Auto Group,Courtside LED Signage,G21,1771775,393,21399.08
+SP00145,S02,Saguaro Auto Group,Courtside LED Signage,G22,1932830,402,23334.77
+SP00146,S02,Saguaro Auto Group,Courtside LED Signage,G23,1635623,316,19738.16
+SP00147,S02,Saguaro Auto Group,Courtside LED Signage,G24,1659300,430,20062.35
+SP00148,S02,Saguaro Auto Group,Courtside LED Signage,G25,1186752,343,14361.14
+SP00149,S02,Saguaro Auto Group,Courtside LED Signage,G26,1899930,431,22950.3
+SP00150,S02,Saguaro Auto Group,Courtside LED Signage,G27,1956049,497,23646.67
+SP00151,S02,Saguaro Auto Group,Courtside LED Signage,G28,1520043,335,18358.0
+SP00152,S02,Saguaro Auto Group,Courtside LED Signage,G29,1857901,461,22456.21
+SP00153,S02,Saguaro Auto Group,Courtside LED Signage,G30,1616760,426,19550.34
+SP00154,S02,Saguaro Auto Group,Courtside LED Signage,G31,1928087,491,23309.02
+SP00155,S02,Saguaro Auto Group,Courtside LED Signage,G32,1460110,303,17627.47
+SP00156,S02,Saguaro Auto Group,Courtside LED Signage,G33,1544621,415,18680.83
+SP00157,S02,Saguaro Auto Group,Courtside LED Signage,G34,1241534,353,15022.21
+SP00158,S02,Saguaro Auto Group,Courtside LED Signage,G35,1382683,393,16729.85
+SP00159,S02,Saguaro Auto Group,Courtside LED Signage,G36,1064354,273,12867.92
+SP00160,S02,Saguaro Auto Group,Courtside LED Signage,G37,1435619,374,17358.36
+SP00161,S02,Saguaro Auto Group,Courtside LED Signage,G38,1661035,493,20105.06
+SP00162,S02,Saguaro Auto Group,Courtside LED Signage,G39,1440078,386,17416.25
+SP00163,S02,Saguaro Auto Group,Courtside LED Signage,G40,1267941,283,15314.57
+SP00164,S02,Saguaro Auto Group,Courtside LED Signage,G41,1813363,571,21960.54
+SP00165,S02,Saguaro Auto Group,Concourse Display,G01,9819,50,76.55
+SP00166,S02,Saguaro Auto Group,Concourse Display,G02,9199,47,71.65
+SP00167,S02,Saguaro Auto Group,Concourse Display,G03,9487,34,68.85
+SP00168,S02,Saguaro Auto Group,Concourse Display,G04,7758,36,59.35
+SP00169,S02,Saguaro Auto Group,Concourse Display,G05,7801,44,62.47
+SP00170,S02,Saguaro Auto Group,Concourse Display,G06,11973,49,89.23
+SP00171,S02,Saguaro Auto Group,Concourse Display,G07,11488,48,85.88
+SP00172,S02,Saguaro Auto Group,Concourse Display,G08,10938,47,82.17
+SP00173,S02,Saguaro Auto Group,Concourse Display,G09,10189,53,79.8
+SP00174,S02,Saguaro Auto Group,Concourse Display,G10,10484,41,77.58
+SP00175,S02,Saguaro Auto Group,Concourse Display,G11,10215,43,76.39
+SP00176,S02,Saguaro Auto Group,Concourse Display,G12,11741,60,91.68
+SP00177,S02,Saguaro Auto Group,Concourse Display,G13,12327,60,95.21
+SP00178,S02,Saguaro Auto Group,Concourse Display,G14,9368,36,68.82
+SP00179,S02,Saguaro Auto Group,Concourse Display,G15,8752,32,63.92
+SP00180,S02,Saguaro Auto Group,Concourse Display,G16,7639,31,56.93
+SP00181,S02,Saguaro Auto Group,Concourse Display,G17,10048,44,75.77
+SP00182,S02,Saguaro Auto Group,Concourse Display,G18,10445,49,79.84
+SP00183,S02,Saguaro Auto Group,Concourse Display,G19,9275,40,69.77
+SP00184,S02,Saguaro Auto Group,Concourse Display,G20,7160,29,53.26
+SP00185,S02,Saguaro Auto Group,Concourse Display,G21,12818,44,92.47
+SP00186,S02,Saguaro Auto Group,Concourse Display,G22,10621,44,79.3
+SP00187,S02,Saguaro Auto Group,Concourse Display,G23,9894,42,74.34
+SP00188,S02,Saguaro Auto Group,Concourse Display,G24,8649,34,63.98
+SP00189,S02,Saguaro Auto Group,Concourse Display,G25,7755,35,58.95
+SP00190,S02,Saguaro Auto Group,Concourse Display,G26,13160,54,98.04
+SP00191,S02,Saguaro Auto Group,Concourse Display,G27,9439,45,72.71
+SP00192,S02,Saguaro Auto Group,Concourse Display,G28,11192,57,87.18
+SP00193,S02,Saguaro Auto Group,Concourse Display,G29,11532,54,88.12
+SP00194,S02,Saguaro Auto Group,Concourse Display,G30,9468,41,71.46
+SP00195,S02,Saguaro Auto Group,Concourse Display,G31,12787,65,99.81
+SP00196,S02,Saguaro Auto Group,Concourse Display,G32,11082,56,86.14
+SP00197,S02,Saguaro Auto Group,Concourse Display,G33,9581,47,73.96
+SP00198,S02,Saguaro Auto Group,Concourse Display,G34,8135,32,60.11
+SP00199,S02,Saguaro Auto Group,Concourse Display,G35,9105,38,68.14
+SP00200,S02,Saguaro Auto Group,Concourse Display,G36,9177,45,71.15
+SP00201,S02,Saguaro Auto Group,Concourse Display,G37,9431,43,71.91
+SP00202,S02,Saguaro Auto Group,Concourse Display,G38,10199,39,75.05
+SP00203,S02,Saguaro Auto Group,Concourse Display,G39,10087,45,76.49
+SP00204,S02,Saguaro Auto Group,Concourse Display,G40,6779,36,53.32
+SP00205,S02,Saguaro Auto Group,Concourse Display,G41,13023,50,95.76
+SP00206,S03,Sonoran Health,Courtside LED Signage,G01,1526290,445,18471.53
+SP00207,S03,Sonoran Health,Courtside LED Signage,G02,1513838,608,18378.91
+SP00208,S03,Sonoran Health,Courtside LED Signage,G03,1614889,599,19588.4
+SP00209,S03,Sonoran Health,Courtside LED Signage,G04,1258505,350,15224.77
+SP00210,S03,Sonoran Health,Courtside LED Signage,G05,1237892,429,15004.89
+SP00211,S03,Sonoran Health,Courtside LED Signage,G06,2018896,782,24500.62
+SP00212,S03,Sonoran Health,Courtside LED Signage,G07,1732408,734,21045.84
+SP00213,S03,Sonoran Health,Courtside LED Signage,G08,1518534,720,18474.56
+SP00214,S03,Sonoran Health,Courtside LED Signage,G09,1419528,576,17236.2
+SP00215,S03,Sonoran Health,Courtside LED Signage,G10,1678175,562,20334.99
+SP00216,S03,Sonoran Health,Courtside LED Signage,G11,1313314,431,15910.64
+SP00217,S03,Sonoran Health,Courtside LED Signage,G12,2034209,969,24749.94
+SP00218,S03,Sonoran Health,Courtside LED Signage,G13,1590333,592,19291.5
+SP00219,S03,Sonoran Health,Courtside LED Signage,G14,1945381,705,23591.51
+SP00220,S03,Sonoran Health,Courtside LED Signage,G15,1391108,601,16903.88
+SP00221,S03,Sonoran Health,Courtside LED Signage,G16,1339165,563,16267.36
+SP00222,S03,Sonoran Health,Courtside LED Signage,G17,1411402,611,17150.83
+SP00223,S03,Sonoran Health,Courtside LED Signage,G18,1170369,435,14196.75
+SP00224,S03,Sonoran Health,Courtside LED Signage,G19,1445349,633,17565.93
+SP00225,S03,Sonoran Health,Courtside LED Signage,G20,1068027,392,12953.77
+SP00226,S03,Sonoran Health,Courtside LED Signage,G21,1950289,785,23678.42
+SP00227,S03,Sonoran Health,Courtside LED Signage,G22,2075243,845,25198.81
+SP00228,S03,Sonoran Health,Courtside LED Signage,G23,1436728,604,17452.47
+SP00229,S03,Sonoran Health,Courtside LED Signage,G24,1460457,541,17714.85
+SP00230,S03,Sonoran Health,Courtside LED Signage,G25,1292375,649,15735.95
+SP00231,S03,Sonoran Health,Courtside LED Signage,G26,1619731,638,19660.21
+SP00232,S03,Sonoran Health,Courtside LED Signage,G27,1903115,774,23108.48
+SP00233,S03,Sonoran Health,Courtside LED Signage,G28,1418445,615,17236.74
+SP00234,S03,Sonoran Health,Courtside LED Signage,G29,2002671,629,24252.45
+SP00235,S03,Sonoran Health,Courtside LED Signage,G30,1400466,584,17010.22
+SP00236,S03,Sonoran Health,Courtside LED Signage,G31,1547053,541,18754.3
+SP00237,S03,Sonoran Health,Courtside LED Signage,G32,1850759,774,22480.36
+SP00238,S03,Sonoran Health,Courtside LED Signage,G33,1463954,604,17778.98
+SP00239,S03,Sonoran Health,Courtside LED Signage,G34,1201215,527,14599.11
+SP00240,S03,Sonoran Health,Courtside LED Signage,G35,1549853,721,18850.92
+SP00241,S03,Sonoran Health,Courtside LED Signage,G36,1047971,387,12711.35
+SP00242,S03,Sonoran Health,Courtside LED Signage,G37,1544658,674,18771.9
+SP00243,S03,Sonoran Health,Courtside LED Signage,G38,1388426,601,16871.74
+SP00244,S03,Sonoran Health,Courtside LED Signage,G39,1251674,442,15174.8
+SP00245,S03,Sonoran Health,Courtside LED Signage,G40,1184383,479,14380.38
+SP00246,S03,Sonoran Health,Courtside LED Signage,G41,1985577,765,24094.97
+SP00247,S03,Sonoran Health,Halftime Contest,G01,4804,308,290.55
+SP00248,S03,Sonoran Health,Halftime Contest,G02,4735,281,278.39
+SP00249,S03,Sonoran Health,Halftime Contest,G03,6903,419,409.21
+SP00250,S03,Sonoran Health,Halftime Contest,G04,3697,272,235.83
+SP00251,S03,Sonoran Health,Halftime Contest,G05,5418,359,331.59
+SP00252,S03,Sonoran Health,Halftime Contest,G06,7133,509,449.55
+SP00253,S03,Sonoran Health,Halftime Contest,G07,5691,446,372.55
+SP00254,S03,Sonoran Health,Halftime Contest,G08,4990,350,312.21
+SP00255,S03,Sonoran Health,Halftime Contest,G09,5336,347,324.42
+SP00256,S03,Sonoran Health,Halftime Contest,G10,5299,201,271.76
+SP00257,S03,Sonoran Health,Halftime Contest,G11,5095,364,321.07
+SP00258,S03,Sonoran Health,Halftime Contest,G12,5729,441,372.37
+SP00259,S03,Sonoran Health,Halftime Contest,G13,5508,488,380.43
+SP00260,S03,Sonoran Health,Halftime Contest,G14,6323,468,404.14
+SP00261,S03,Sonoran Health,Halftime Contest,G15,5878,446,379.62
+SP00262,S03,Sonoran Health,Halftime Contest,G16,4590,261,266.07
+SP00263,S03,Sonoran Health,Halftime Contest,G17,5150,435,348.03
+SP00264,S03,Sonoran Health,Halftime Contest,G18,5095,248,280.5
+SP00265,S03,Sonoran Health,Halftime Contest,G19,5866,394,361.06
+SP00266,S03,Sonoran Health,Halftime Contest,G20,4301,326,277.67
+SP00267,S03,Sonoran Health,Halftime Contest,G21,6407,348,365.5
+SP00268,S03,Sonoran Health,Halftime Contest,G22,5359,409,346.98
+SP00269,S03,Sonoran Health,Halftime Contest,G23,5996,422,375.86
+SP00270,S03,Sonoran Health,Halftime Contest,G24,4776,365,309.41
+SP00271,S03,Sonoran Health,Halftime Contest,G25,4078,216,230.76
+SP00272,S03,Sonoran Health,Halftime Contest,G26,6237,510,415.58
+SP00273,S03,Sonoran Health,Halftime Contest,G27,4954,297,292.37
+SP00274,S03,Sonoran Health,Halftime Contest,G28,6573,401,390.16
+SP00275,S03,Sonoran Health,Halftime Contest,G29,5699,391,353.79
+SP00276,S03,Sonoran Health,Halftime Contest,G30,4940,329,303.17
+SP00277,S03,Sonoran Health,Halftime Contest,G31,6409,375,374.99
+SP00278,S03,Sonoran Health,Halftime Contest,G32,6063,433,382.17
+SP00279,S03,Sonoran Health,Halftime Contest,G33,6053,391,366.96
+SP00280,S03,Sonoran Health,Halftime Contest,G34,4573,357,298.92
+SP00281,S03,Sonoran Health,Halftime Contest,G35,4987,308,297.59
+SP00282,S03,Sonoran Health,Halftime Contest,G36,4932,337,305.49
+SP00283,S03,Sonoran Health,Halftime Contest,G37,5049,365,319.63
+SP00284,S03,Sonoran Health,Halftime Contest,G38,4818,295,286.56
+SP00285,S03,Sonoran Health,Halftime Contest,G39,4622,351,298.73
+SP00286,S03,Sonoran Health,Halftime Contest,G40,3357,233,209.15
+SP00287,S03,Sonoran Health,Halftime Contest,G41,6506,521,429.9
+SP00288,S03,Sonoran Health,Mobile App Banner,G01,122915,1405,1352.45
+SP00289,S03,Sonoran Health,Mobile App Banner,G02,112090,1280,1232.7
+SP00290,S03,Sonoran Health,Mobile App Banner,G03,171061,1861,1848.88
+SP00291,S03,Sonoran Health,Mobile App Banner,G04,92238,990,992.24
+SP00292,S03,Sonoran Health,Mobile App Banner,G05,143369,1564,1551.17
+SP00293,S03,Sonoran Health,Mobile App Banner,G06,175105,1851,1873.84
+SP00294,S03,Sonoran Health,Mobile App Banner,G07,156387,1829,1735.02
+SP00295,S03,Sonoran Health,Mobile App Banner,G08,143400,1946,1685.21
+SP00296,S03,Sonoran Health,Mobile App Banner,G09,142493,1510,1526.08
+SP00297,S03,Sonoran Health,Mobile App Banner,G10,135856,1410,1444.64
+SP00298,S03,Sonoran Health,Mobile App Banner,G11,128849,1590,1458.65
+SP00299,S03,Sonoran Health,Mobile App Banner,G12,145877,1431,1522.19
+SP00300,S03,Sonoran Health,Mobile App Banner,G13,150908,1890,1718.2
+SP00301,S03,Sonoran Health,Mobile App Banner,G14,166964,2011,1872.92
+SP00302,S03,Sonoran Health,Mobile App Banner,G15,141352,1707,1587.24
+SP00303,S03,Sonoran Health,Mobile App Banner,G16,103904,1394,1215.28
+SP00304,S03,Sonoran Health,Mobile App Banner,G17,107260,1313,1210.53
+SP00305,S03,Sonoran Health,Mobile App Banner,G18,140407,1601,1543.45
+SP00306,S03,Sonoran Health,Mobile App Banner,G19,116052,1313,1272.14
+SP00307,S03,Sonoran Health,Mobile App Banner,G20,102280,1204,1137.39
+SP00308,S03,Sonoran Health,Mobile App Banner,G21,167055,1969,1858.81
+SP00309,S03,Sonoran Health,Mobile App Banner,G22,158015,2069,1830.58
+SP00310,S03,Sonoran Health,Mobile App Banner,G23,126929,1494,1411.61
+SP00311,S03,Sonoran Health,Mobile App Banner,G24,114552,1259,1242.52
+SP00312,S03,Sonoran Health,Mobile App Banner,G25,96136,1046,1039.33
+SP00313,S03,Sonoran Health,Mobile App Banner,G26,233060,2843,2626.75
+SP00314,S03,Sonoran Health,Mobile App Banner,G27,135284,1727,1551.74
+SP00315,S03,Sonoran Health,Mobile App Banner,G28,143916,2250,1794.96
+SP00316,S03,Sonoran Health,Mobile App Banner,G29,156280,1893,1756.85
+SP00317,S03,Sonoran Health,Mobile App Banner,G30,120844,1528,1380.76
+SP00318,S03,Sonoran Health,Mobile App Banner,G31,192957,2007,2053.2
+SP00319,S03,Sonoran Health,Mobile App Banner,G32,151207,1699,1653.45
+SP00320,S03,Sonoran Health,Mobile App Banner,G33,127851,1580,1448.06
+SP00321,S03,Sonoran Health,Mobile App Banner,G34,107879,1396,1244.09
+SP00322,S03,Sonoran Health,Mobile App Banner,G35,140783,1845,1631.32
+SP00323,S03,Sonoran Health,Mobile App Banner,G36,136694,1750,1569.4
+SP00324,S03,Sonoran Health,Mobile App Banner,G37,126765,1645,1463.25
+SP00325,S03,Sonoran Health,Mobile App Banner,G38,122837,1615,1425.15
+SP00326,S03,Sonoran Health,Mobile App Banner,G39,116697,1156,1221.63
+SP00327,S03,Sonoran Health,Mobile App Banner,G40,99962,909,1018.14
+SP00328,S03,Sonoran Health,Mobile App Banner,G41,183717,1636,1858.67
+SP00329,S04,Valley Sun Energy,Courtside LED Signage,G01,1565391,557,18979.9
+SP00330,S04,Valley Sun Energy,Courtside LED Signage,G02,1514656,609,18389.11
+SP00331,S04,Valley Sun Energy,Courtside LED Signage,G03,1267922,542,15404.9
+SP00332,S04,Valley Sun Energy,Courtside LED Signage,G04,1195691,385,14483.37
+SP00333,S04,Valley Sun Energy,Courtside LED Signage,G05,1285013,539,15608.9
+SP00334,S04,Valley Sun Energy,Courtside LED Signage,G06,1877858,866,22837.6
+SP00335,S04,Valley Sun Energy,Courtside LED Signage,G07,1992283,767,24176.15
+SP00336,S04,Valley Sun Energy,Courtside LED Signage,G08,1303352,411,15784.39
+SP00337,S04,Valley Sun Energy,Courtside LED Signage,G09,1446520,486,17528.55
+SP00338,S04,Valley Sun Energy,Courtside LED Signage,G10,1545199,470,18706.93
+SP00339,S04,Valley Sun Energy,Courtside LED Signage,G11,1211283,424,14683.88
+SP00340,S04,Valley Sun Energy,Courtside LED Signage,G12,1875937,632,22732.77
+SP00341,S04,Valley Sun Energy,Courtside LED Signage,G13,1515427,615,18400.39
+SP00342,S04,Valley Sun Energy,Courtside LED Signage,G14,1848187,666,22411.58
+SP00343,S04,Valley Sun Energy,Courtside LED Signage,G15,1476531,583,17922.5
+SP00344,S04,Valley Sun Energy,Courtside LED Signage,G16,1165095,339,14100.04
+SP00345,S04,Valley Sun Energy,Courtside LED Signage,G17,1587983,533,19242.62
+SP00346,S04,Valley Sun Energy,Courtside LED Signage,G18,1120450,437,13598.37
+SP00347,S04,Valley Sun Energy,Courtside LED Signage,G19,1478562,538,17931.08
+SP00348,S04,Valley Sun Energy,Courtside LED Signage,G20,1095410,415,13290.31
+SP00349,S04,Valley Sun Energy,Courtside LED Signage,G21,1909870,571,23118.61
+SP00350,S04,Valley Sun Energy,Courtside LED Signage,G22,1887381,571,22848.48
+SP00351,S04,Valley Sun Energy,Courtside LED Signage,G23,1577839,506,19111.26
+SP00352,S04,Valley Sun Energy,Courtside LED Signage,G24,1636257,604,19846.67
+SP00353,S04,Valley Sun Energy,Courtside LED Signage,G25,1117504,463,13572.13
+SP00354,S04,Valley Sun Energy,Courtside LED Signage,G26,2101713,785,25495.6
+SP00355,S04,Valley Sun Energy,Courtside LED Signage,G27,1941987,772,23574.11
+SP00356,S04,Valley Sun Energy,Courtside LED Signage,G28,1344068,517,16309.99
+SP00357,S04,Valley Sun Energy,Courtside LED Signage,G29,1882016,643,22809.31
+SP00358,S04,Valley Sun Energy,Courtside LED Signage,G30,1544271,483,18700.38
+SP00359,S04,Valley Sun Energy,Courtside LED Signage,G31,1965963,744,23852.07
+SP00360,S04,Valley Sun Energy,Courtside LED Signage,G32,1709021,537,20696.28
+SP00361,S04,Valley Sun Energy,Courtside LED Signage,G33,1414891,487,17149.39
+SP00362,S04,Valley Sun Energy,Courtside LED Signage,G34,1177881,450,14292.14
+SP00363,S04,Valley Sun Energy,Courtside LED Signage,G35,1297503,433,15721.79
+SP00364,S04,Valley Sun Energy,Courtside LED Signage,G36,1132769,442,13748.06
+SP00365,S04,Valley Sun Energy,Courtside LED Signage,G37,1459702,508,17694.4
+SP00366,S04,Valley Sun Energy,Courtside LED Signage,G38,1455098,504,17637.91
+SP00367,S04,Valley Sun Energy,Courtside LED Signage,G39,1158607,419,14050.27
+SP00368,S04,Valley Sun Energy,Courtside LED Signage,G40,1336317,452,16194.06
+SP00369,S04,Valley Sun Energy,Courtside LED Signage,G41,1689426,540,20462.37
+SP00370,S04,Valley Sun Energy,Concourse Display,G01,9304,65,78.84
+SP00371,S04,Valley Sun Energy,Concourse Display,G02,7541,45,61.17
+SP00372,S04,Valley Sun Energy,Concourse Display,G03,10812,82,93.64
+SP00373,S04,Valley Sun Energy,Concourse Display,G04,6820,47,57.51
+SP00374,S04,Valley Sun Energy,Concourse Display,G05,9136,58,75.26
+SP00375,S04,Valley Sun Energy,Concourse Display,G06,10891,70,89.94
+SP00376,S04,Valley Sun Energy,Concourse Display,G07,10916,68,89.45
+SP00377,S04,Valley Sun Energy,Concourse Display,G08,9577,60,78.65
+SP00378,S04,Valley Sun Energy,Concourse Display,G09,9139,60,75.85
+SP00379,S04,Valley Sun Energy,Concourse Display,G10,9070,55,73.75
+SP00380,S04,Valley Sun Energy,Concourse Display,G11,9430,60,77.82
+SP00381,S04,Valley Sun Energy,Concourse Display,G12,9504,73,82.91
+SP00382,S04,Valley Sun Energy,Concourse Display,G13,10278,58,82.02
+SP00383,S04,Valley Sun Energy,Concourse Display,G14,12453,62,96.45
+SP00384,S04,Valley Sun Energy,Concourse Display,G15,10551,65,86.16
+SP00385,S04,Valley Sun Energy,Concourse Display,G16,7587,51,63.72
+SP00386,S04,Valley Sun Energy,Concourse Display,G17,8182,48,66.05
+SP00387,S04,Valley Sun Energy,Concourse Display,G18,9514,70,81.89
+SP00388,S04,Valley Sun Energy,Concourse Display,G19,9257,62,77.53
+SP00389,S04,Valley Sun Energy,Concourse Display,G20,7849,48,64.13
+SP00390,S04,Valley Sun Energy,Concourse Display,G21,9401,61,77.76
+SP00391,S04,Valley Sun Energy,Concourse Display,G22,9298,58,76.11
+SP00392,S04,Valley Sun Energy,Concourse Display,G23,9986,64,82.5
+SP00393,S04,Valley Sun Energy,Concourse Display,G24,8911,49,70.8
+SP00394,S04,Valley Sun Energy,Concourse Display,G25,8335,53,68.7
+SP00395,S04,Valley Sun Energy,Concourse Display,G26,13441,96,114.36
+SP00396,S04,Valley Sun Energy,Concourse Display,G27,10620,68,87.69
+SP00397,S04,Valley Sun Energy,Concourse Display,G28,11051,70,90.87
+SP00398,S04,Valley Sun Energy,Concourse Display,G29,9771,64,81.25
+SP00399,S04,Valley Sun Energy,Concourse Display,G30,8837,56,72.93
+SP00400,S04,Valley Sun Energy,Concourse Display,G31,13008,79,105.79
+SP00401,S04,Valley Sun Energy,Concourse Display,G32,11078,81,95.11
+SP00402,S04,Valley Sun Energy,Concourse Display,G33,9285,52,74.21
+SP00403,S04,Valley Sun Energy,Concourse Display,G34,7708,40,60.52
+SP00404,S04,Valley Sun Energy,Concourse Display,G35,7573,53,64.26
+SP00405,S04,Valley Sun Energy,Concourse Display,G36,10366,58,82.56
+SP00406,S04,Valley Sun Energy,Concourse Display,G37,9753,53,77.38
+SP00407,S04,Valley Sun Energy,Concourse Display,G38,7735,49,63.85
+SP00408,S04,Valley Sun Energy,Concourse Display,G39,7646,46,62.04
+SP00409,S04,Valley Sun Energy,Concourse Display,G40,7256,41,58.19
+SP00410,S04,Valley Sun Energy,Concourse Display,G41,12394,80,102.42
+SP00411,S05,Cactus Cola,Courtside LED Signage,G01,1251372,647,15243.22
+SP00412,S05,Cactus Cola,Courtside LED Signage,G02,1485682,696,18071.99
+SP00413,S05,Cactus Cola,Courtside LED Signage,G03,1579878,707,19206.04
+SP00414,S05,Cactus Cola,Courtside LED Signage,G04,1159242,655,14140.5
+SP00415,S05,Cactus Cola,Courtside LED Signage,G05,1362254,731,16603.17
+SP00416,S05,Cactus Cola,Courtside LED Signage,G06,1774303,818,21578.24
+SP00417,S05,Cactus Cola,Courtside LED Signage,G07,1708898,1020,20864.0
+SP00418,S05,Cactus Cola,Courtside LED Signage,G08,1484539,838,18107.97
+SP00419,S05,Cactus Cola,Courtside LED Signage,G09,1365575,821,16674.51
+SP00420,S05,Cactus Cola,Courtside LED Signage,G10,1616939,829,19693.6
+SP00421,S05,Cactus Cola,Courtside LED Signage,G11,1572073,989,19211.09
+SP00422,S05,Cactus Cola,Courtside LED Signage,G12,1538906,833,18758.6
+SP00423,S05,Cactus Cola,Courtside LED Signage,G13,1511479,783,18412.07
+SP00424,S05,Cactus Cola,Courtside LED Signage,G14,2028662,1107,24731.47
+SP00425,S05,Cactus Cola,Courtside LED Signage,G15,1458872,825,17795.54
+SP00426,S05,Cactus Cola,Courtside LED Signage,G16,1164912,684,14218.53
+SP00427,S05,Cactus Cola,Courtside LED Signage,G17,1423485,787,17357.43
+SP00428,S05,Cactus Cola,Courtside LED Signage,G18,1109152,574,13511.08
+SP00429,S05,Cactus Cola,Courtside LED Signage,G19,1355412,676,16501.68
+SP00430,S05,Cactus Cola,Courtside LED Signage,G20,1406178,719,17126.12
+SP00431,S05,Cactus Cola,Courtside LED Signage,G21,1824218,885,22200.38
+SP00432,S05,Cactus Cola,Courtside LED Signage,G22,1767381,1015,21564.03
+SP00433,S05,Cactus Cola,Courtside LED Signage,G23,1380138,686,16802.07
+SP00434,S05,Cactus Cola,Courtside LED Signage,G24,1682024,763,20451.61
+SP00435,S05,Cactus Cola,Courtside LED Signage,G25,1057901,606,12907.2
+SP00436,S05,Cactus Cola,Courtside LED Signage,G26,2046132,1122,24946.34
+SP00437,S05,Cactus Cola,Courtside LED Signage,G27,1769156,1143,21630.14
+SP00438,S05,Cactus Cola,Courtside LED Signage,G28,1422514,740,17329.19
+SP00439,S05,Cactus Cola,Courtside LED Signage,G29,1643044,844,20011.94
+SP00440,S05,Cactus Cola,Courtside LED Signage,G30,1524773,925,18621.38
+SP00441,S05,Cactus Cola,Courtside LED Signage,G31,1959865,1125,23912.43
+SP00442,S05,Cactus Cola,Courtside LED Signage,G32,1835255,1004,22374.75
+SP00443,S05,Cactus Cola,Courtside LED Signage,G33,1503737,662,18276.83
+SP00444,S05,Cactus Cola,Courtside LED Signage,G34,1189669,507,14453.83
+SP00445,S05,Cactus Cola,Courtside LED Signage,G35,1525199,827,18592.16
+SP00446,S05,Cactus Cola,Courtside LED Signage,G36,1299011,584,15792.59
+SP00447,S05,Cactus Cola,Courtside LED Signage,G37,1516564,890,18510.35
+SP00448,S05,Cactus Cola,Courtside LED Signage,G38,1462539,614,17765.46
+SP00449,S05,Cactus Cola,Courtside LED Signage,G39,1241308,556,15090.59
+SP00450,S05,Cactus Cola,Courtside LED Signage,G40,1208497,557,14697.0
+SP00451,S05,Cactus Cola,Courtside LED Signage,G41,1700797,1084,20789.3
+SP00452,S05,Cactus Cola,Fan Zone Sampling,G01,2967,398,273.16
+SP00453,S05,Cactus Cola,Fan Zone Sampling,G02,2102,230,175.37
+SP00454,S05,Cactus Cola,Fan Zone Sampling,G03,2796,290,227.64
+SP00455,S05,Cactus Cola,Fan Zone Sampling,G04,2023,237,174.2
+SP00456,S05,Cactus Cola,Fan Zone Sampling,G05,2535,274,210.17
+SP00457,S05,Cactus Cola,Fan Zone Sampling,G06,3468,440,310.44
+SP00458,S05,Cactus Cola,Fan Zone Sampling,G07,2700,319,233.3
+SP00459,S05,Cactus Cola,Fan Zone Sampling,G08,3130,409,284.32
+SP00460,S05,Cactus Cola,Fan Zone Sampling,G09,2656,323,232.74
+SP00461,S05,Cactus Cola,Fan Zone Sampling,G10,2694,345,242.35
+SP00462,S05,Cactus Cola,Fan Zone Sampling,G11,2322,279,202.39
+SP00463,S05,Cactus Cola,Fan Zone Sampling,G12,2926,342,251.49
+SP00464,S05,Cactus Cola,Fan Zone Sampling,G13,3334,373,280.89
+SP00465,S05,Cactus Cola,Fan Zone Sampling,G14,2952,374,263.81
+SP00466,S05,Cactus Cola,Fan Zone Sampling,G15,3035,335,253.95
+SP00467,S05,Cactus Cola,Fan Zone Sampling,G16,2081,253,182.58
+SP00468,S05,Cactus Cola,Fan Zone Sampling,G17,2397,275,204.38
+SP00469,S05,Cactus Cola,Fan Zone Sampling,G18,2139,234,178.19
+SP00470,S05,Cactus Cola,Fan Zone Sampling,G19,2415,277,205.7
+SP00471,S05,Cactus Cola,Fan Zone Sampling,G20,1848,196,151.97
+SP00472,S05,Cactus Cola,Fan Zone Sampling,G21,3350,391,287.93
+SP00473,S05,Cactus Cola,Fan Zone Sampling,G22,3153,330,257.46
+SP00474,S05,Cactus Cola,Fan Zone Sampling,G23,3090,366,267.45
+SP00475,S05,Cactus Cola,Fan Zone Sampling,G24,2478,311,220.68
+SP00476,S05,Cactus Cola,Fan Zone Sampling,G25,2250,232,182.65
+SP00477,S05,Cactus Cola,Fan Zone Sampling,G26,3917,605,388.28
+SP00478,S05,Cactus Cola,Fan Zone Sampling,G27,2731,304,229.48
+SP00479,S05,Cactus Cola,Fan Zone Sampling,G28,3193,374,274.97
+SP00480,S05,Cactus Cola,Fan Zone Sampling,G29,2606,285,217.3
+SP00481,S05,Cactus Cola,Fan Zone Sampling,G30,2663,311,229.05
+SP00482,S05,Cactus Cola,Fan Zone Sampling,G31,3575,429,311.12
+SP00483,S05,Cactus Cola,Fan Zone Sampling,G32,2552,296,218.46
+SP00484,S05,Cactus Cola,Fan Zone Sampling,G33,2598,262,208.71
+SP00485,S05,Cactus Cola,Fan Zone Sampling,G34,2062,285,192.85
+SP00486,S05,Cactus Cola,Fan Zone Sampling,G35,2532,343,234.13
+SP00487,S05,Cactus Cola,Fan Zone Sampling,G36,2570,266,208.83
+SP00488,S05,Cactus Cola,Fan Zone Sampling,G37,2517,318,224.87
+SP00489,S05,Cactus Cola,Fan Zone Sampling,G38,2496,307,219.85
+SP00490,S05,Cactus Cola,Fan Zone Sampling,G39,2325,226,184.08
+SP00491,S05,Cactus Cola,Fan Zone Sampling,G40,2085,192,161.16
+SP00492,S05,Cactus Cola,Fan Zone Sampling,G41,3462,391,292.79
+SP00493,S05,Cactus Cola,Social Content Series,G01,734565,27179,16123.87
+SP00494,S05,Cactus Cola,Social Content Series,G02,774814,34146,18924.57
+SP00495,S05,Cactus Cola,Social Content Series,G03,884281,38141,21307.98
+SP00496,S05,Cactus Cola,Social Content Series,G04,603093,21187,12843.51
+SP00497,S05,Cactus Cola,Social Content Series,G05,787789,36514,19870.03
+SP00498,S05,Cactus Cola,Social Content Series,G06,1119888,49788,27505.05
+SP00499,S05,Cactus Cola,Social Content Series,G07,895066,35081,20334.23
+SP00500,S05,Cactus Cola,Social Content Series,G08,808757,39241,21013.4
+SP00501,S05,Cactus Cola,Social Content Series,G09,807727,29262,17511.51
+SP00502,S05,Cactus Cola,Social Content Series,G10,777846,32055,18220.15
+SP00503,S05,Cactus Cola,Social Content Series,G11,802809,35570,19674.9
+SP00504,S05,Cactus Cola,Social Content Series,G12,908290,42733,23131.45
+SP00505,S05,Cactus Cola,Social Content Series,G13,1066361,47528,26232.39
+SP00506,S05,Cactus Cola,Social Content Series,G14,955134,37840,21840.33
+SP00507,S05,Cactus Cola,Social Content Series,G15,937571,42300,23243.29
+SP00508,S05,Cactus Cola,Social Content Series,G16,622387,29115,15791.8
+SP00509,S05,Cactus Cola,Social Content Series,G17,739699,39188,20373.23
+SP00510,S05,Cactus Cola,Social Content Series,G18,901120,41429,22610.44
+SP00511,S05,Cactus Cola,Social Content Series,G19,657608,24276,14415.37
+SP00512,S05,Cactus Cola,Social Content Series,G20,582800,22741,13204.72
+SP00513,S05,Cactus Cola,Social Content Series,G21,1075782,51106,27569.15
+SP00514,S05,Cactus Cola,Social Content Series,G22,871036,37925,21113.33
+SP00515,S05,Cactus Cola,Social Content Series,G23,841746,38900,21190.79
+SP00516,S05,Cactus Cola,Social Content Series,G24,805696,29736,17659.03
+SP00517,S05,Cactus Cola,Social Content Series,G25,706782,29133,16557.88
+SP00518,S05,Cactus Cola,Social Content Series,G26,1340556,61737,33673.15
+SP00519,S05,Cactus Cola,Social Content Series,G27,793267,36296,19843.17
+SP00520,S05,Cactus Cola,Social Content Series,G28,913958,38922,21848.43
+SP00521,S05,Cactus Cola,Social Content Series,G29,953897,47116,25075.97
+SP00522,S05,Cactus Cola,Social Content Series,G30,731817,26869,15990.52
+SP00523,S05,Cactus Cola,Social Content Series,G31,1043302,33565,21137.68
+SP00524,S05,Cactus Cola,Social Content Series,G32,783053,28117,16888.76
+SP00525,S05,Cactus Cola,Social Content Series,G33,676109,29198,16304.31
+SP00526,S05,Cactus Cola,Social Content Series,G34,675251,27482,15696.29
+SP00527,S05,Cactus Cola,Social Content Series,G35,784939,32688,18505.49
+SP00528,S05,Cactus Cola,Social Content Series,G36,819442,39409,21168.46
+SP00529,S05,Cactus Cola,Social Content Series,G37,833738,40104,21540.07
+SP00530,S05,Cactus Cola,Social Content Series,G38,651033,27502,15485.25
+SP00531,S05,Cactus Cola,Social Content Series,G39,883743,40915,22274.05
+SP00532,S05,Cactus Cola,Social Content Series,G40,737155,33628,18404.42
+SP00533,S05,Cactus Cola,Social Content Series,G41,1443765,57728,33199.02
+SP00534,S06,Mesa Mobile,Social Content Series,G01,819098,39192,21089.29
+SP00535,S06,Mesa Mobile,Social Content Series,G02,708531,31513,17406.48
+SP00536,S06,Mesa Mobile,Social Content Series,G03,980643,38304,22232.32
+SP00537,S06,Mesa Mobile,Social Content Series,G04,552013,24285,13467.98
+SP00538,S06,Mesa Mobile,Social Content Series,G05,811776,30995,18154.29
+SP00539,S06,Mesa Mobile,Social Content Series,G06,1252613,43069,26347.82
+SP00540,S06,Mesa Mobile,Social Content Series,G07,937321,39236,22168.75
+SP00541,S06,Mesa Mobile,Social Content Series,G08,981620,45379,24717.47
+SP00542,S06,Mesa Mobile,Social Content Series,G09,877097,32520,19275.89
+SP00543,S06,Mesa Mobile,Social Content Series,G10,789342,29573,17454.66
+SP00544,S06,Mesa Mobile,Social Content Series,G11,677636,27730,15804.25
+SP00545,S06,Mesa Mobile,Social Content Series,G12,1055601,30656,20230.09
+SP00546,S06,Mesa Mobile,Social Content Series,G13,1084157,48162,26614.12
+SP00547,S06,Mesa Mobile,Social Content Series,G14,1064313,42479,24446.79
+SP00548,S06,Mesa Mobile,Social Content Series,G15,771059,32634,18361.58
+SP00549,S06,Mesa Mobile,Social Content Series,G16,544155,17483,11016.73
+SP00550,S06,Mesa Mobile,Social Content Series,G17,764441,28661,16911.4
+SP00551,S06,Mesa Mobile,Social Content Series,G18,886118,27532,17611.59
+SP00552,S06,Mesa Mobile,Social Content Series,G19,777319,30956,17830.81
+SP00553,S06,Mesa Mobile,Social Content Series,G20,647140,26261,15015.93
+SP00554,S06,Mesa Mobile,Social Content Series,G21,940863,31514,19497.88
+SP00555,S06,Mesa Mobile,Social Content Series,G22,852004,31121,18560.63
+SP00556,S06,Mesa Mobile,Social Content Series,G23,764344,32880,18387.11
+SP00557,S06,Mesa Mobile,Social Content Series,G24,748837,31402,17730.44
+SP00558,S06,Mesa Mobile,Social Content Series,G25,613991,22959,13561.66
+SP00559,S06,Mesa Mobile,Social Content Series,G26,1091951,34059,21748.35
+SP00560,S06,Mesa Mobile,Social Content Series,G27,878311,31665,18987.79
+SP00561,S06,Mesa Mobile,Social Content Series,G28,879486,31758,19030.74
+SP00562,S06,Mesa Mobile,Social Content Series,G29,1017349,49552,26499.67
+SP00563,S06,Mesa Mobile,Social Content Series,G30,706619,29505,16686.41
+SP00564,S06,Mesa Mobile,Social Content Series,G31,1105985,42693,24896.43
+SP00565,S06,Mesa Mobile,Social Content Series,G32,891220,35707,20518.67
+SP00566,S06,Mesa Mobile,Social Content Series,G33,812599,28685,17353.26
+SP00567,S06,Mesa Mobile,Social Content Series,G34,694838,35077,18530.81
+SP00568,S06,Mesa Mobile,Social Content Series,G35,764425,33202,18500.71
+SP00569,S06,Mesa Mobile,Social Content Series,G36,785929,24104,15510.09
+SP00570,S06,Mesa Mobile,Social Content Series,G37,701792,32501,17691.53
+SP00571,S06,Mesa Mobile,Social Content Series,G38,739949,33971,18549.47
+SP00572,S06,Mesa Mobile,Social Content Series,G39,832695,29640,17868.37
+SP00573,S06,Mesa Mobile,Social Content Series,G40,771331,25587,15897.52
+SP00574,S06,Mesa Mobile,Social Content Series,G41,1353665,51739,30291.92
+SP00575,S06,Mesa Mobile,Mobile App Banner,G01,153385,2655,2003.13
+SP00576,S06,Mesa Mobile,Mobile App Banner,G02,103947,1576,1279.25
+SP00577,S06,Mesa Mobile,Mobile App Banner,G03,148627,2600,1950.71
+SP00578,S06,Mesa Mobile,Mobile App Banner,G04,99247,1619,1261.44
+SP00579,S06,Mesa Mobile,Mobile App Banner,G05,123640,1871,1520.66
+SP00580,S06,Mesa Mobile,Mobile App Banner,G06,176781,2229,2017.84
+SP00581,S06,Mesa Mobile,Mobile App Banner,G07,154071,2347,1900.26
+SP00582,S06,Mesa Mobile,Mobile App Banner,G08,156618,2645,2022.37
+SP00583,S06,Mesa Mobile,Mobile App Banner,G09,129724,2004,1609.73
+SP00584,S06,Mesa Mobile,Mobile App Banner,G10,150570,2200,1824.29
+SP00585,S06,Mesa Mobile,Mobile App Banner,G11,118911,1754,1446.34
+SP00586,S06,Mesa Mobile,Mobile App Banner,G12,156488,2297,1899.65
+SP00587,S06,Mesa Mobile,Mobile App Banner,G13,164434,1852,1799.39
+SP00588,S06,Mesa Mobile,Mobile App Banner,G14,153456,2370,1903.97
+SP00589,S06,Mesa Mobile,Mobile App Banner,G15,159755,2453,1976.96
+SP00590,S06,Mesa Mobile,Mobile App Banner,G16,104234,1306,1186.86
+SP00591,S06,Mesa Mobile,Mobile App Banner,G17,113324,1679,1380.98
+SP00592,S06,Mesa Mobile,Mobile App Banner,G18,104093,1354,1202.74
+SP00593,S06,Mesa Mobile,Mobile App Banner,G19,116055,1837,1455.67
+SP00594,S06,Mesa Mobile,Mobile App Banner,G20,95820,1380,1153.85
+SP00595,S06,Mesa Mobile,Mobile App Banner,G21,159217,2164,1871.95
+SP00596,S06,Mesa Mobile,Mobile App Banner,G22,160976,2228,1906.91
+SP00597,S06,Mesa Mobile,Mobile App Banner,G23,153109,2010,1775.28
+SP00598,S06,Mesa Mobile,Mobile App Banner,G24,116023,1480,1330.43
+SP00599,S06,Mesa Mobile,Mobile App Banner,G25,105767,1261,1181.87
+SP00600,S06,Mesa Mobile,Mobile App Banner,G26,224262,3200,2689.96
+SP00601,S06,Mesa Mobile,Mobile App Banner,G27,144310,1814,1645.15
+SP00602,S06,Mesa Mobile,Mobile App Banner,G28,148077,2354,1860.77
+SP00603,S06,Mesa Mobile,Mobile App Banner,G29,158418,2449,1966.39
+SP00604,S06,Mesa Mobile,Mobile App Banner,G30,97540,1203,1103.88
+SP00605,S06,Mesa Mobile,Mobile App Banner,G31,155619,2447,1945.98
+SP00606,S06,Mesa Mobile,Mobile App Banner,G32,149496,1837,1689.5
+SP00607,S06,Mesa Mobile,Mobile App Banner,G33,126331,1439,1388.18
+SP00608,S06,Mesa Mobile,Mobile App Banner,G34,100813,1618,1272.17
+SP00609,S06,Mesa Mobile,Mobile App Banner,G35,133825,2013,1641.67
+SP00610,S06,Mesa Mobile,Mobile App Banner,G36,125077,2098,1610.13
+SP00611,S06,Mesa Mobile,Mobile App Banner,G37,128628,2143,1650.5
+SP00612,S06,Mesa Mobile,Mobile App Banner,G38,126327,1779,1507.15
+SP00613,S06,Mesa Mobile,Mobile App Banner,G39,133089,2206,1703.79
+SP00614,S06,Mesa Mobile,Mobile App Banner,G40,105067,1687,1326.13
+SP00615,S06,Mesa Mobile,Mobile App Banner,G41,206949,3295,2602.12
+SP00616,S06,Mesa Mobile,Fan Zone Sampling,G01,1891,196,153.96
+SP00617,S06,Mesa Mobile,Fan Zone Sampling,G02,2792,252,213.88
+SP00618,S06,Mesa Mobile,Fan Zone Sampling,G03,2881,320,242.01
+SP00619,S06,Mesa Mobile,Fan Zone Sampling,G04,2261,294,204.9
+SP00620,S06,Mesa Mobile,Fan Zone Sampling,G05,2730,293,225.51
+SP00621,S06,Mesa Mobile,Fan Zone Sampling,G06,3398,227,232.69
+SP00622,S06,Mesa Mobile,Fan Zone Sampling,G07,2946,342,252.37
+SP00623,S06,Mesa Mobile,Fan Zone Sampling,G08,2971,266,226.91
+SP00624,S06,Mesa Mobile,Fan Zone Sampling,G09,2510,285,212.86
+SP00625,S06,Mesa Mobile,Fan Zone Sampling,G10,2590,301,222.02
+SP00626,S06,Mesa Mobile,Fan Zone Sampling,G11,2943,292,234.91
+SP00627,S06,Mesa Mobile,Fan Zone Sampling,G12,2898,368,259.55
+SP00628,S06,Mesa Mobile,Fan Zone Sampling,G13,2797,237,209.15
+SP00629,S06,Mesa Mobile,Fan Zone Sampling,G14,2920,263,223.78
+SP00630,S06,Mesa Mobile,Fan Zone Sampling,G15,3277,351,270.51
+SP00631,S06,Mesa Mobile,Fan Zone Sampling,G16,2358,188,172.07
+SP00632,S06,Mesa Mobile,Fan Zone Sampling,G17,2356,228,186.17
+SP00633,S06,Mesa Mobile,Fan Zone Sampling,G18,2307,244,189.54
+SP00634,S06,Mesa Mobile,Fan Zone Sampling,G19,2728,298,227.41
+SP00635,S06,Mesa Mobile,Fan Zone Sampling,G20,2105,225,173.53
+SP00636,S06,Mesa Mobile,Fan Zone Sampling,G21,3154,315,252.37
+SP00637,S06,Mesa Mobile,Fan Zone Sampling,G22,2841,259,218.62
+SP00638,S06,Mesa Mobile,Fan Zone Sampling,G23,2549,287,215.38
+SP00639,S06,Mesa Mobile,Fan Zone Sampling,G24,2486,261,203.3
+SP00640,S06,Mesa Mobile,Fan Zone Sampling,G25,1833,240,166.57
+SP00641,S06,Mesa Mobile,Fan Zone Sampling,G26,3316,436,301.96
+SP00642,S06,Mesa Mobile,Fan Zone Sampling,G27,2834,257,217.85
+SP00643,S06,Mesa Mobile,Fan Zone Sampling,G28,3416,408,296.74
+SP00644,S06,Mesa Mobile,Fan Zone Sampling,G29,2886,314,240.11
+SP00645,S06,Mesa Mobile,Fan Zone Sampling,G30,2307,294,206.9
+SP00646,S06,Mesa Mobile,Fan Zone Sampling,G31,3235,253,234.17
+SP00647,S06,Mesa Mobile,Fan Zone Sampling,G32,2494,262,204.01
+SP00648,S06,Mesa Mobile,Fan Zone Sampling,G33,2357,246,192.4
+SP00649,S06,Mesa Mobile,Fan Zone Sampling,G34,2139,203,167.52
+SP00650,S06,Mesa Mobile,Fan Zone Sampling,G35,2683,311,229.68
+SP00651,S06,Mesa Mobile,Fan Zone Sampling,G36,2824,307,234.75
+SP00652,S06,Mesa Mobile,Fan Zone Sampling,G37,2496,277,209.45
+SP00653,S06,Mesa Mobile,Fan Zone Sampling,G38,2498,289,213.75
+SP00654,S06,Mesa Mobile,Fan Zone Sampling,G39,2534,276,210.78
+SP00655,S06,Mesa Mobile,Fan Zone Sampling,G40,2039,196,160.53
+SP00656,S06,Mesa Mobile,Fan Zone Sampling,G41,3611,322,275.49
+SP00657,S07,Red Rock Insurance,Courtside LED Signage,G01,1262336,320,15260.19
+SP00658,S07,Red Rock Insurance,Courtside LED Signage,G02,1358999,459,16468.77
+SP00659,S07,Red Rock Insurance,Courtside LED Signage,G03,1434099,486,17379.4
+SP00660,S07,Red Rock Insurance,Courtside LED Signage,G04,1184535,370,14343.96
+SP00661,S07,Red Rock Insurance,Courtside LED Signage,G05,1478950,573,17948.08
+SP00662,S07,Red Rock Insurance,Courtside LED Signage,G06,2122745,639,25696.75
+SP00663,S07,Red Rock Insurance,Courtside LED Signage,G07,1928007,617,23352.14
+SP00664,S07,Red Rock Insurance,Courtside LED Signage,G08,1310291,398,15862.98
+SP00665,S07,Red Rock Insurance,Courtside LED Signage,G09,1418508,424,17170.82
+SP00666,S07,Red Rock Insurance,Courtside LED Signage,G10,1516134,512,18372.87
+SP00667,S07,Red Rock Insurance,Courtside LED Signage,G11,1718810,495,20799.01
+SP00668,S07,Red Rock Insurance,Courtside LED Signage,G12,1828499,631,22163.16
+SP00669,S07,Red Rock Insurance,Courtside LED Signage,G13,1486962,486,18013.76
+SP00670,S07,Red Rock Insurance,Courtside LED Signage,G14,1950057,538,23589.04
+SP00671,S07,Red Rock Insurance,Courtside LED Signage,G15,1225183,407,14844.73
+SP00672,S07,Red Rock Insurance,Courtside LED Signage,G16,1250867,436,15163.01
+SP00673,S07,Red Rock Insurance,Courtside LED Signage,G17,1752700,531,21218.61
+SP00674,S07,Red Rock Insurance,Courtside LED Signage,G18,1126329,415,13661.51
+SP00675,S07,Red Rock Insurance,Courtside LED Signage,G19,1323309,428,16029.68
+SP00676,S07,Red Rock Insurance,Courtside LED Signage,G20,1288920,333,15583.67
+SP00677,S07,Red Rock Insurance,Courtside LED Signage,G21,2010841,489,24301.41
+SP00678,S07,Red Rock Insurance,Courtside LED Signage,G22,1730431,412,20909.67
+SP00679,S07,Red Rock Insurance,Courtside LED Signage,G23,1407941,451,17053.26
+SP00680,S07,Red Rock Insurance,Courtside LED Signage,G24,1511533,439,18292.32
+SP00681,S07,Red Rock Insurance,Courtside LED Signage,G25,1207851,330,14610.01
+SP00682,S07,Red Rock Insurance,Courtside LED Signage,G26,1921206,604,23266.01
+SP00683,S07,Red Rock Insurance,Courtside LED Signage,G27,1634704,503,19792.84
+SP00684,S07,Red Rock Insurance,Courtside LED Signage,G28,1458773,460,17666.4
+SP00685,S07,Red Rock Insurance,Courtside LED Signage,G29,1940250,622,23501.01
+SP00686,S07,Red Rock Insurance,Courtside LED Signage,G30,1576663,537,19108.07
+SP00687,S07,Red Rock Insurance,Courtside LED Signage,G31,1919830,708,23286.02
+SP00688,S07,Red Rock Insurance,Courtside LED Signage,G32,1641448,561,19894.04
+SP00689,S07,Red Rock Insurance,Courtside LED Signage,G33,1508804,409,18248.98
+SP00690,S07,Red Rock Insurance,Courtside LED Signage,G34,1083214,286,13098.84
+SP00691,S07,Red Rock Insurance,Courtside LED Signage,G35,1499403,527,18177.41
+SP00692,S07,Red Rock Insurance,Courtside LED Signage,G36,1239374,371,15002.66
+SP00693,S07,Red Rock Insurance,Courtside LED Signage,G37,1458424,424,17649.66
+SP00694,S07,Red Rock Insurance,Courtside LED Signage,G38,1543423,523,18704.22
+SP00695,S07,Red Rock Insurance,Courtside LED Signage,G39,1145485,378,13878.25
+SP00696,S07,Red Rock Insurance,Courtside LED Signage,G40,1138597,352,13786.42
+SP00697,S07,Red Rock Insurance,Courtside LED Signage,G41,1751949,697,21267.41
+SP00698,S07,Red Rock Insurance,Social Content Series,G01,820317,19668,14266.99
+SP00699,S07,Red Rock Insurance,Social Content Series,G02,748920,19146,13441.53
+SP00700,S07,Red Rock Insurance,Social Content Series,G03,980538,20819,16111.8
+SP00701,S07,Red Rock Insurance,Social Content Series,G04,566824,12030,9312.26
+SP00702,S07,Red Rock Insurance,Social Content Series,G05,673605,17422,12160.24
+SP00703,S07,Red Rock Insurance,Social Content Series,G06,1120854,24656,18717.47
+SP00704,S07,Red Rock Insurance,Social Content Series,G07,900234,24909,16820.53
+SP00705,S07,Red Rock Insurance,Social Content Series,G08,883633,22221,15730.15
+SP00706,S07,Red Rock Insurance,Social Content Series,G09,836562,28413,17473.79
+SP00707,S07,Red Rock Insurance,Social Content Series,G10,838545,17423,13645.15
+SP00708,S07,Red Rock Insurance,Social Content Series,G11,907455,21911,15836.05
+SP00709,S07,Red Rock Insurance,Social Content Series,G12,977810,22189,16566.78
+SP00710,S07,Red Rock Insurance,Social Content Series,G13,1001260,24142,17461.39
+SP00711,S07,Red Rock Insurance,Social Content Series,G14,1150643,30988,21201.72
+SP00712,S07,Red Rock Insurance,Social Content Series,G15,896034,22187,15829.79
+SP00713,S07,Red Rock Insurance,Social Content Series,G16,641614,12719,10226.27
+SP00714,S07,Red Rock Insurance,Social Content Series,G17,644577,11289,9752.35
+SP00715,S07,Red Rock Insurance,Social Content Series,G18,802657,20712,14473.37
+SP00716,S07,Red Rock Insurance,Social Content Series,G19,739041,22254,14440.35
+SP00717,S07,Red Rock Insurance,Social Content Series,G20,672598,18687,12593.98
+SP00718,S07,Red Rock Insurance,Social Content Series,G21,992532,25996,18031.46
+SP00719,S07,Red Rock Insurance,Social Content Series,G22,801669,24924,15938.58
+SP00720,S07,Red Rock Insurance,Social Content Series,G23,716231,18420,12893.34
+SP00721,S07,Red Rock Insurance,Social Content Series,G24,771091,21431,14440.68
+SP00722,S07,Red Rock Insurance,Social Content Series,G25,623594,20483,12781.51
+SP00723,S07,Red Rock Insurance,Social Content Series,G26,1203999,28542,20825.84
+SP00724,S07,Red Rock Insurance,Social Content Series,G27,819683,18427,13826.82
+SP00725,S07,Red Rock Insurance,Social Content Series,G28,752466,20653,14000.78
+SP00726,S07,Red Rock Insurance,Social Content Series,G29,943205,25388,17374.72
+SP00727,S07,Red Rock Insurance,Social Content Series,G30,828736,18811,14042.77
+SP00728,S07,Red Rock Insurance,Social Content Series,G31,1055738,24918,18223.29
+SP00729,S07,Red Rock Insurance,Social Content Series,G32,978754,24079,17236.61
+SP00730,S07,Red Rock Insurance,Social Content Series,G33,821837,20918,14717.86
+SP00731,S07,Red Rock Insurance,Social Content Series,G34,655130,14036,10808.97
+SP00732,S07,Red Rock Insurance,Social Content Series,G35,741149,14924,11893.78
+SP00733,S07,Red Rock Insurance,Social Content Series,G36,750513,20058,13775.02
+SP00734,S07,Red Rock Insurance,Social Content Series,G37,959409,24926,17358.8
+SP00735,S07,Red Rock Insurance,Social Content Series,G38,744670,20375,13833.31
+SP00736,S07,Red Rock Insurance,Social Content Series,G39,724839,17784,12747.99
+SP00737,S07,Red Rock Insurance,Social Content Series,G40,739904,21146,14060.55
+SP00738,S07,Red Rock Insurance,Social Content Series,G41,1147830,23999,18730.16
+SP00739,S08,Camelback Air,Social Content Series,G01,842898,37577,20738.31
+SP00740,S08,Camelback Air,Social Content Series,G02,760783,36830,19737.63
+SP00741,S08,Camelback Air,Social Content Series,G03,942610,38834,22075.4
+SP00742,S08,Camelback Air,Social Content Series,G04,512057,23381,12791.89
+SP00743,S08,Camelback Air,Social Content Series,G05,672343,24181,14514.68
+SP00744,S08,Camelback Air,Social Content Series,G06,1172130,39563,24396.45
+SP00745,S08,Camelback Air,Social Content Series,G07,928586,40437,22510.47
+SP00746,S08,Camelback Air,Social Content Series,G08,947192,38114,21864.89
+SP00747,S08,Camelback Air,Social Content Series,G09,805005,30692,17987.46
+SP00748,S08,Camelback Air,Social Content Series,G10,794265,35357,19523.43
+SP00749,S08,Camelback Air,Social Content Series,G11,858817,37712,20928.67
+SP00750,S08,Camelback Air,Social Content Series,G12,1005494,44939,24778.19
+SP00751,S08,Camelback Air,Social Content Series,G13,990507,40515,23095.06
+SP00752,S08,Camelback Air,Social Content Series,G14,1013195,34694,21261.82
+SP00753,S08,Camelback Air,Social Content Series,G15,912988,44295,23720.35
+SP00754,S08,Camelback Air,Social Content Series,G16,638174,25407,14636.09
+SP00755,S08,Camelback Air,Social Content Series,G17,780906,33035,18590.64
+SP00756,S08,Camelback Air,Social Content Series,G18,901721,35461,20526.94
+SP00757,S08,Camelback Air,Social Content Series,G19,843203,36231,20270.0
+SP00758,S08,Camelback Air,Social Content Series,G20,703907,29765,16753.12
+SP00759,S08,Camelback Air,Social Content Series,G21,1102813,44919,25647.1
+SP00760,S08,Camelback Air,Social Content Series,G22,996638,48591,25976.85
+SP00761,S08,Camelback Air,Social Content Series,G23,980302,33963,20709.97
+SP00762,S08,Camelback Air,Social Content Series,G24,747672,26382,15963.07
+SP00763,S08,Camelback Air,Social Content Series,G25,631387,24381,14216.02
+SP00764,S08,Camelback Air,Social Content Series,G26,1189585,45309,26564.48
+SP00765,S08,Camelback Air,Social Content Series,G27,856355,32838,19200.51
+SP00766,S08,Camelback Air,Social Content Series,G28,755902,37763,20020.5
+SP00767,S08,Camelback Air,Social Content Series,G29,913336,43084,23299.69
+SP00768,S08,Camelback Air,Social Content Series,G30,784636,31694,18154.72
+SP00769,S08,Camelback Air,Social Content Series,G31,1101122,53227,28539.77
+SP00770,S08,Camelback Air,Social Content Series,G32,832331,31505,18518.0
+SP00771,S08,Camelback Air,Social Content Series,G33,719391,27150,15977.09
+SP00772,S08,Camelback Air,Social Content Series,G34,762847,31088,17746.49
+SP00773,S08,Camelback Air,Social Content Series,G35,861852,31320,18718.95
+SP00774,S08,Camelback Air,Social Content Series,G36,856380,34451,19765.59
+SP00775,S08,Camelback Air,Social Content Series,G37,728137,28414,16498.23
+SP00776,S08,Camelback Air,Social Content Series,G38,786511,39151,20781.67
+SP00777,S08,Camelback Air,Social Content Series,G39,710168,26272,15587.03
+SP00778,S08,Camelback Air,Social Content Series,G40,684666,28534,16148.94
+SP00779,S08,Camelback Air,Social Content Series,G41,1403739,49376,29915.42
+SP00780,S08,Camelback Air,Halftime Contest,G01,5647,500,389.89
+SP00781,S08,Camelback Air,Halftime Contest,G02,5403,444,361.0
+SP00782,S08,Camelback Air,Halftime Contest,G03,6038,603,440.72
+SP00783,S08,Camelback Air,Halftime Contest,G04,4201,472,324.89
+SP00784,S08,Camelback Air,Halftime Contest,G05,5452,377,339.26
+SP00785,S08,Camelback Air,Halftime Contest,G06,6916,736,520.76
+SP00786,S08,Camelback Air,Halftime Contest,G07,5853,554,416.38
+SP00787,S08,Camelback Air,Halftime Contest,G08,6983,623,483.69
+SP00788,S08,Camelback Air,Halftime Contest,G09,5885,476,390.25
+SP00789,S08,Camelback Air,Halftime Contest,G10,5157,528,381.1
+SP00790,S08,Camelback Air,Halftime Contest,G11,5010,493,362.96
+SP00791,S08,Camelback Air,Halftime Contest,G12,6621,553,445.35
+SP00792,S08,Camelback Air,Halftime Contest,G13,6294,604,450.66
+SP00793,S08,Camelback Air,Halftime Contest,G14,5270,421,347.81
+SP00794,S08,Camelback Air,Halftime Contest,G15,5959,516,407.35
+SP00795,S08,Camelback Air,Halftime Contest,G16,5003,406,332.34
+SP00796,S08,Camelback Air,Halftime Contest,G17,5910,485,394.6
+SP00797,S08,Camelback Air,Halftime Contest,G18,5447,480,375.3
+SP00798,S08,Camelback Air,Halftime Contest,G19,4412,407,310.35
+SP00799,S08,Camelback Air,Halftime Contest,G20,3827,365,273.39
+SP00800,S08,Camelback Air,Halftime Contest,G21,6317,540,429.21
+SP00801,S08,Camelback Air,Halftime Contest,G22,6316,511,419.17
+SP00802,S08,Camelback Air,Halftime Contest,G23,5551,511,390.12
+SP00803,S08,Camelback Air,Halftime Contest,G24,5339,399,342.71
+SP00804,S08,Camelback Air,Halftime Contest,G25,4017,299,257.62
+SP00805,S08,Camelback Air,Halftime Contest,G26,6970,552,458.36
+SP00806,S08,Camelback Air,Halftime Contest,G27,5968,622,444.65
+SP00807,S08,Camelback Air,Halftime Contest,G28,5960,482,395.28
+SP00808,S08,Camelback Air,Halftime Contest,G29,5361,606,416.06
+SP00809,S08,Camelback Air,Halftime Contest,G30,5500,584,413.63
+SP00810,S08,Camelback Air,Halftime Contest,G31,7041,730,523.2
+SP00811,S08,Camelback Air,Halftime Contest,G32,6648,526,436.77
+SP00812,S08,Camelback Air,Halftime Contest,G33,4560,374,304.33
+SP00813,S08,Camelback Air,Halftime Contest,G34,4274,367,291.16
+SP00814,S08,Camelback Air,Halftime Contest,G35,5111,423,342.33
+SP00815,S08,Camelback Air,Halftime Contest,G36,5218,532,384.68
+SP00816,S08,Camelback Air,Halftime Contest,G37,5212,428,348.2
+SP00817,S08,Camelback Air,Halftime Contest,G38,5008,446,346.66
+SP00818,S08,Camelback Air,Halftime Contest,G39,5427,456,366.05
+SP00819,S08,Camelback Air,Halftime Contest,G40,4285,426,312.2
+SP00820,S08,Camelback Air,Halftime Contest,G41,6403,509,421.59

@@ -1,0 +1,66 @@
+table fans
+	lineageTag: 350a327f-c176-40c3-b59e-a68c9fe30a44
+
+	column fan_id
+		dataType: string
+		lineageTag: c7c3e770-c6a8-432c-a902-3882eb070c51
+		summarizeBy: none
+		sourceColumn: fan_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_group
+		dataType: string
+		lineageTag: 0310bff0-d15d-470a-887b-29343cde8869
+		summarizeBy: none
+		sourceColumn: age_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 9c0798f8-5afc-476b-94fb-0596a7f49a3c
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column acquisition_channel
+		dataType: string
+		lineageTag: 13cc7ed9-3ac1-44b6-b5be-aebecfa06677
+		summarizeBy: none
+		sourceColumn: acquisition_channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column membership_status
+		dataType: string
+		lineageTag: 11008b32-2eef-4298-98bc-d61cd6d16399
+		summarizeBy: none
+		sourceColumn: membership_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column join_date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 4a9f37d0-b839-4040-a2c2-26d0a4534dbf
+		summarizeBy: none
+		sourceColumn: join_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition fans = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\fans.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"fan_id", type text}, {"age_group", type text}, {"city", type text}, {"acquisition_channel", type text}, {"membership_status", type text}, {"join_date", type date}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

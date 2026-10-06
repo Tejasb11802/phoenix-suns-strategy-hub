@@ -1,0 +1,153 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "1a02d46aa0654f5fa528",
+  "position": {
+    "x": 460,
+    "y": 428,
+    "z": 15000,
+    "height": 258,
+    "width": 800,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sponsorship"
+                    }
+                  },
+                  "Property": "sponsor_name"
+                }
+              },
+              "queryRef": "sponsorship.sponsor_name",
+              "nativeQueryRef": "sponsor_name",
+              "displayName": "Partner"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sponsorship"
+                    }
+                  },
+                  "Property": "activation_name"
+                }
+              },
+              "queryRef": "sponsorship.activation_name",
+              "nativeQueryRef": "activation_name",
+              "displayName": "Activation"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sponsor Impressions"
+                }
+              },
+              "queryRef": "_Measures.Sponsor Impressions",
+              "nativeQueryRef": "Sponsor Impressions",
+              "displayName": "Impressions"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sponsor Engagements"
+                }
+              },
+              "queryRef": "_Measures.Sponsor Engagements",
+              "nativeQueryRef": "Sponsor Engagements",
+              "displayName": "Engagements"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Engagement Rate %"
+                }
+              },
+              "queryRef": "_Measures.Engagement Rate %",
+              "nativeQueryRef": "Engagement Rate %",
+              "displayName": "Engagement rate"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Estimated Partner Value"
+                }
+              },
+              "queryRef": "_Measures.Estimated Partner Value",
+              "nativeQueryRef": "Estimated Partner Value",
+              "displayName": "Estimated value"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Sponsor Engagements"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Activation performance'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

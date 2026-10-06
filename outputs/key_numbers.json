@@ -1,0 +1,94 @@
+{
+  "home_games": 41,
+  "ticket_revenue": 64081767.0,
+  "revenue_per_game": 1562970.0,
+  "tickets_sold": 599013,
+  "tickets_scanned": 499219,
+  "avg_ticket_price": 106.98,
+  "sell_through_pct": 85.9,
+  "attendance_rate_pct": 83.3,
+  "no_show_pct": 16.7,
+  "unique_buyers": 39118,
+  "avg_spend_per_fan": 1638.0,
+  "repeat_purchase_rate_pct": 56.0,
+  "retention_rate_pct": 50.4,
+  "campaign_conversion_pct": 3.87,
+  "campaign_revenue": 1449376.0,
+  "sponsor_engagements": 6746926,
+  "partner_value": 8546517.0,
+  "best_tier_day": "Marquee weekend",
+  "best_tier_day_pct": 99.2,
+  "worst_tier_day": "Value weekday",
+  "worst_tier_day_pct": 76.2,
+  "weekday_no_show_pct": 18.6,
+  "weekend_no_show_pct": 13.9,
+  "soft_games": 8,
+  "soft_unsold_share_pct": 32,
+  "at_risk_fans": 6471,
+  "at_risk_revenue": 5565837.3,
+  "at_risk_recover": 834875.595,
+  "plan_candidates": 5799,
+  "member_revenue_share_pct": 52.8,
+  "owned_roi": 12.9,
+  "paid_roi": 0.7,
+  "best_campaign": "App Flash Sale",
+  "best_campaign_roi": 21.67,
+  "best_campaign_conv": 4.2,
+  "worst_campaign": "College Night Social",
+  "worst_campaign_roi": 0.41,
+  "worst_campaign_conv": 1.0,
+  "worst_campaign_cpa": 200.0,
+  "best_campaign_type": "Upsell",
+  "best_campaign_type_roi": 15.04,
+  "top_segment_conv": "High-Value Fan",
+  "top_segment_conv_pct": 23.36,
+  "top_activation": "Fan Zone Sampling",
+  "top_activation_rate": 11.095,
+  "low_activation": "Courtside LED Signage",
+  "low_activation_rate": 0.038,
+  "top_sponsor": "Cactus Cola",
+  "top_sponsor_engagements": 1539295,
+  "weak_sponsors": [
+    "Saguaro Auto Group",
+    "Valley Sun Energy"
+  ],
+  "insights": [
+    "Sell-through averaged 85.9% but ranged from 73% to 100%. 8 soft games hold 32% of all unsold seats, and 100% of them are weekday games.",
+    "16.7% of tickets sold were never scanned. No-shows run 18.6% on weekdays against 13.9% on weekends.",
+    "6,471 repeat buyers went quiet in the final 60 days. They average $860 per fan, more than active repeat attendees ($684).",
+    "5,799 non members bought five or more separate games at single game prices, averaging 2.6 seats at $118 per seat.",
+    "Email, SMS, and push returned 12.9x on cost against 0.7x for paid media. Upsell was the best campaign type at 15.0x ROI."
+  ],
+  "recommendations": [
+    {
+      "action": "Retarget at-risk and first-time buyers with post-game offers",
+      "detail": "Win-back offers to 6,471 at-risk fans, highest spenders first, and a second game offer within 14 days for 5,706 first-time buyers.",
+      "sizing": "Recovering 15% of at-risk value is worth about $834,876. A repeat attendee averages $684 against $280 for a first-time buyer."
+    },
+    {
+      "action": "Bundle weekday games to lift sell-through",
+      "detail": "Weeknight bundles, group offers, and theme nights on the 8 games with the weakest demand.",
+      "sizing": "Selling 25% of 31,155 unsold seats at a 20% discount is worth about $589,278."
+    },
+    {
+      "action": "Upsell high-frequency fans into plans and premium products",
+      "detail": "Mini plan and premium seating offers to 5,799 non members who already buy five or more games.",
+      "sizing": "10% take-up adding 3 games each is worth about $536,092."
+    },
+    {
+      "action": "Focus campaigns on high-conversion segments and owned channels",
+      "detail": "Prioritize the High-Value Fan segment, which converts at 23.4%, and move part of the $88,000 paid media budget into email, SMS, and push.",
+      "sizing": "Owned channels returned 12.9x against 0.7x for paid media. Best campaign: App Flash Sale at 21.7x."
+    },
+    {
+      "action": "Strengthen sponsor activations tied to high-engagement environments",
+      "detail": "Add interactive activations for Saguaro Auto Group and Valley Sun Energy, the two partners with the lowest engagement. Both rely on signage and displays only.",
+      "sizing": "Fan Zone Sampling engages 11.1% of the fans it reaches against 0.04% for Courtside LED Signage."
+    },
+    {
+      "action": "Monitor sold versus scanned gaps to reduce no-shows",
+      "detail": "Weekly sold versus scanned report by game, plus ticket exchange and outreach for 1,192 season ticket accounts using under 75% of their tickets.",
+      "sizing": "Those accounts hold $13.87M of ticket revenue. Weekday no-shows run 18.6% against 13.9% on weekends."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "1b721441fa9e4ebf8569",
+  "position": {
+    "x": 20,
+    "y": 162,
+    "z": 12000,
+    "height": 258,
+    "width": 830,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "lineStackedColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "Game Label"
+                }
+              },
+              "queryRef": "games.Game Label",
+              "nativeQueryRef": "Game Label",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Tickets Scanned"
+                }
+              },
+              "queryRef": "_Measures.Tickets Scanned",
+              "nativeQueryRef": "Tickets Scanned"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "No-Show Tickets"
+                }
+              },
+              "queryRef": "_Measures.No-Show Tickets",
+              "nativeQueryRef": "No-Show Tickets"
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Capacity"
+                }
+              },
+              "queryRef": "_Measures.Capacity",
+              "nativeQueryRef": "Capacity"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "games"
+                  }
+                },
+                "Property": "Game Label"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Tickets sold versus attendance by game (scanned plus no-shows = sold)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

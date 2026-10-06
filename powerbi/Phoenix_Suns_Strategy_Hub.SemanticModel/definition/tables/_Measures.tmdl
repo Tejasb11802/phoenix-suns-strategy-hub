@@ -1,0 +1,232 @@
+table _Measures
+	lineageTag: 6a8e6e1d-c9ac-4947-a1c4-289d4c97ec82
+
+	measure 'Ticket Revenue' = SUM ( ticket_sales[ticket_revenue] )
+		formatString: $#,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 4198c390-3094-4e55-8fd5-3c6682f46e41
+
+	measure 'Tickets Sold' = SUM ( ticket_sales[quantity] )
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 695d9395-643b-4915-aa0f-95567e1f7e21
+
+	measure 'Avg Ticket Price' = DIVIDE ( [Ticket Revenue], [Tickets Sold] )
+		formatString: $#,##0.00
+		displayFolder: Ticketing & Attendance
+		lineageTag: 1fa14065-ac28-4cd8-ae54-62186ac925df
+
+	measure Capacity = SUM ( games[capacity] )
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 15826aff-730d-41b5-a9d1-36211d3b4ee5
+
+	measure 'Sell-Through %' = DIVIDE ( [Tickets Sold], [Capacity] )
+		formatString: 0.0%
+		displayFolder: Ticketing & Attendance
+		lineageTag: 628b20c4-1c9d-4d1b-8d6f-96889963d2fd
+
+	measure 'Unsold Seats' = [Capacity] - [Tickets Sold]
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: afa24bee-0f5c-4994-b9f9-914839637c0c
+
+	measure 'Tickets Scanned' = SUM ( attendance[tickets_scanned] )
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 9d42c61d-0d81-4eb2-bd75-e05ad94f2492
+
+	measure 'Attendance Rate %' = DIVIDE ( [Tickets Scanned], [Tickets Sold] )
+		formatString: 0.0%
+		displayFolder: Ticketing & Attendance
+		lineageTag: 28832a2a-d15c-4f35-8c3e-b48b67614e82
+
+	measure 'No-Show Rate %' = 1 - [Attendance Rate %]
+		formatString: 0.0%
+		displayFolder: Ticketing & Attendance
+		lineageTag: effe9479-0838-4117-a5a9-66d25f8b4bb0
+
+	measure 'No-Show Tickets' = [Tickets Sold] - [Tickets Scanned]
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: b4794ee6-70f1-4ac5-ab68-18a19d51cf5e
+
+	measure 'Games Played' = COUNTROWS ( games )
+		formatString: #,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 54f9d9bb-278b-4978-808f-4f21bddfbfba
+
+	measure 'Revenue per Game' = DIVIDE ( [Ticket Revenue], [Games Played] )
+		formatString: $#,##0
+		displayFolder: Ticketing & Attendance
+		lineageTag: 658a33e5-5bb5-4b7c-a56a-d6ee1a9c7558
+
+	measure 'Unique Buyers' = DISTINCTCOUNT ( ticket_sales[fan_id] )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 2940268a-cd9e-4a08-ad3d-0d9c9b10afe6
+
+	measure 'Buyers in Segment' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 71d03308-98e1-4654-acb4-6c5cf086d52d
+
+	measure 'Segment Revenue' = VAR r = SUM ( fan_segments[total_spend] ) RETURN IF ( r > 0, r )
+		formatString: $#,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 98c99239-2815-424b-965d-445564183558
+
+	measure 'Avg Spend per Fan' = DIVIDE ( [Segment Revenue], [Buyers in Segment] )
+		formatString: $#,##0
+		displayFolder: Fan Segmentation
+		lineageTag: d5dd11f5-dd11-4635-b909-38e6990ea42c
+
+	measure 'Avg Games per Fan' = CALCULATE ( AVERAGE ( fan_segments[games_purchased] ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+		formatString: 0.0
+		displayFolder: Fan Segmentation
+		lineageTag: c8893007-e68d-4c65-86e0-38ee81d990a5
+
+	measure 'Avg Engagement Score' = CALCULATE ( AVERAGE ( fan_segments[engagement_score] ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+		formatString: 0
+		displayFolder: Fan Segmentation
+		lineageTag: 866b1735-90b5-4a71-b292-1e4782b0e285
+
+	measure 'Non-Member Buyers' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ), KEEPFILTERS ( fan_segments[segment] <> "Season Ticket Member" ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 871d4fcf-fd8d-41fc-ab56-88dd51777c6e
+
+	measure 'Repeat Buyers' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] >= 2 ), KEEPFILTERS ( fan_segments[segment] <> "Season Ticket Member" ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: d30ad660-f17d-4618-97e1-26b6f3eb4813
+
+	measure 'Repeat Purchase Rate %' = DIVIDE ( [Repeat Buyers], [Non-Member Buyers] )
+		formatString: 0.0%
+		displayFolder: Fan Segmentation
+		lineageTag: 53103370-5eb3-4987-8ff8-d850dd53c296
+
+	measure 'First Half Buyers' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[bought_first_half] = 1 ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 66b81abc-cc97-4a18-8fc9-a08a2ffd2719
+
+	measure 'Retained Buyers' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[bought_first_half] = 1 ), KEEPFILTERS ( fan_segments[bought_second_half] = 1 ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: dde5a5bb-6b26-459e-bf1f-2a72deb3d1ba
+
+	measure 'Fan Retention Rate %' = DIVIDE ( [Retained Buyers], [First Half Buyers] )
+		formatString: 0.0%
+		displayFolder: Fan Segmentation
+		lineageTag: 5cbdd653-5a17-4097-9c09-66ff2e5c7242
+
+	measure 'High-Value Fans' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "High-Value Fan" ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 7c15bbf2-0b80-4e41-913b-3a5d9f025c97
+
+	measure 'At-Risk Fans' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "At-Risk Fan" ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: 0e09c926-1e79-4a57-95ec-fa6af5860904
+
+	measure 'First-Time Buyers' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "First-Time Buyer" ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: ee68cc5e-70d0-4693-b3fd-97b1d9a19aca
+
+	measure 'Plan Candidates' = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[plan_candidate] = 1 ) )
+		formatString: #,##0
+		displayFolder: Fan Segmentation
+		lineageTag: f6ea4352-05c3-4a4d-a846-342ec7f947d0
+
+	measure 'Messages Sent' = COUNTROWS ( campaign_responses )
+		formatString: #,##0
+		displayFolder: Marketing
+		lineageTag: a8b7853d-a44e-4e48-b3be-88d83c598489
+
+	measure Clicks = SUM ( campaign_responses[clicked] )
+		formatString: #,##0
+		displayFolder: Marketing
+		lineageTag: 58984d08-846b-4081-b1e4-9d2e4410ba42
+
+	measure Conversions = SUM ( campaign_responses[converted] )
+		formatString: #,##0
+		displayFolder: Marketing
+		lineageTag: 57008587-d4e6-407a-a7f5-4743dec67945
+
+	measure 'Response Rate %' = DIVIDE ( [Clicks], [Messages Sent] )
+		formatString: 0.0%
+		displayFolder: Marketing
+		lineageTag: 7e708861-627b-4aca-9fc0-a0d316c705f9
+
+	measure 'Conversion Rate %' = DIVIDE ( [Conversions], [Messages Sent] )
+		formatString: 0.00%
+		displayFolder: Marketing
+		lineageTag: f0e118f1-a465-4167-b101-f1974308bec3
+
+	measure 'Campaign Cost' = SUM ( campaigns[cost] )
+		formatString: $#,##0
+		displayFolder: Marketing
+		lineageTag: 8b8d3554-5530-4734-9fb7-f438385b1f57
+
+	measure 'Campaign Revenue' = SUM ( campaigns[revenue_generated] )
+		formatString: $#,##0
+		displayFolder: Marketing
+		lineageTag: 1669f823-0193-46d8-90dc-35bed4eb824e
+
+	measure 'Cost per Conversion' = DIVIDE ( [Campaign Cost], SUM ( campaigns[conversions] ) )
+		formatString: $#,##0.00
+		displayFolder: Marketing
+		lineageTag: 7e98aae4-edd3-47a6-b21a-a9003be343c2
+
+	measure 'Campaign ROI' = DIVIDE ( [Campaign Revenue] - [Campaign Cost], [Campaign Cost] )
+		formatString: 0.0"x"
+		displayFolder: Marketing
+		lineageTag: 937af1b5-e6cc-49f9-8dd8-1b61a244799f
+
+	measure 'Sponsor Impressions' = SUM ( sponsorship[impressions] )
+		formatString: #,##0
+		displayFolder: Sponsorship
+		lineageTag: 54c5f9b7-2f06-4768-90e2-8c797be3be1e
+
+	measure 'Sponsor Engagements' = SUM ( sponsorship[engagements] )
+		formatString: #,##0
+		displayFolder: Sponsorship
+		lineageTag: 9bc13ed7-45cd-42c5-b573-fc42941fac1a
+
+	measure 'Engagement Rate %' = DIVIDE ( [Sponsor Engagements], [Sponsor Impressions] )
+		formatString: 0.00%
+		displayFolder: Sponsorship
+		lineageTag: cf037a42-9427-41e5-8d91-b34d6585a88d
+
+	measure 'Estimated Partner Value' = SUM ( sponsorship[estimated_value] )
+		formatString: $#,##0
+		displayFolder: Sponsorship
+		lineageTag: 888d54af-b18d-4d5b-b025-658f113e62be
+
+	measure 'Active Partners' = DISTINCTCOUNT ( sponsorship[sponsor_id] )
+		formatString: #,##0
+		displayFolder: Sponsorship
+		lineageTag: 7082c7ea-34cb-4f9d-9341-429de46934cf
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 2be35b91-4db6-490d-a5d6-bcaad8fb2564
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+

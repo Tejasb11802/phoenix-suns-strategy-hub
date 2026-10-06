@@ -1,0 +1,104 @@
+// Phoenix Suns Fan Revenue & Strategy Intelligence Hub: DAX reference
+// These measures and calculated columns are already inside Phoenix_Suns_Strategy_Hub.pbip.
+// This file is for reading, and for a manual rebuild if you ever need one.
+
+// ---------- Ticketing & Attendance ----------
+Ticket Revenue = SUM ( ticket_sales[ticket_revenue] )
+
+Tickets Sold = SUM ( ticket_sales[quantity] )
+
+Avg Ticket Price = DIVIDE ( [Ticket Revenue], [Tickets Sold] )
+
+Capacity = SUM ( games[capacity] )
+
+Sell-Through % = DIVIDE ( [Tickets Sold], [Capacity] )
+
+Unsold Seats = [Capacity] - [Tickets Sold]
+
+Tickets Scanned = SUM ( attendance[tickets_scanned] )
+
+Attendance Rate % = DIVIDE ( [Tickets Scanned], [Tickets Sold] )
+
+No-Show Rate % = 1 - [Attendance Rate %]
+
+No-Show Tickets = [Tickets Sold] - [Tickets Scanned]
+
+Games Played = COUNTROWS ( games )
+
+Revenue per Game = DIVIDE ( [Ticket Revenue], [Games Played] )
+
+// ---------- Fan Segmentation ----------
+Unique Buyers = DISTINCTCOUNT ( ticket_sales[fan_id] )
+
+Buyers in Segment = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+
+Segment Revenue = VAR r = SUM ( fan_segments[total_spend] ) RETURN IF ( r > 0, r )
+
+Avg Spend per Fan = DIVIDE ( [Segment Revenue], [Buyers in Segment] )
+
+Avg Games per Fan = CALCULATE ( AVERAGE ( fan_segments[games_purchased] ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+
+Avg Engagement Score = CALCULATE ( AVERAGE ( fan_segments[engagement_score] ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ) )
+
+Non-Member Buyers = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] > 0 ), KEEPFILTERS ( fan_segments[segment] <> "Season Ticket Member" ) )
+
+Repeat Buyers = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[games_purchased] >= 2 ), KEEPFILTERS ( fan_segments[segment] <> "Season Ticket Member" ) )
+
+Repeat Purchase Rate % = DIVIDE ( [Repeat Buyers], [Non-Member Buyers] )
+
+First Half Buyers = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[bought_first_half] = 1 ) )
+
+Retained Buyers = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[bought_first_half] = 1 ), KEEPFILTERS ( fan_segments[bought_second_half] = 1 ) )
+
+Fan Retention Rate % = DIVIDE ( [Retained Buyers], [First Half Buyers] )
+
+High-Value Fans = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "High-Value Fan" ) )
+
+At-Risk Fans = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "At-Risk Fan" ) )
+
+First-Time Buyers = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[segment] = "First-Time Buyer" ) )
+
+Plan Candidates = CALCULATE ( COUNTROWS ( fan_segments ), KEEPFILTERS ( fan_segments[plan_candidate] = 1 ) )
+
+// ---------- Marketing ----------
+Messages Sent = COUNTROWS ( campaign_responses )
+
+Clicks = SUM ( campaign_responses[clicked] )
+
+Conversions = SUM ( campaign_responses[converted] )
+
+Response Rate % = DIVIDE ( [Clicks], [Messages Sent] )
+
+Conversion Rate % = DIVIDE ( [Conversions], [Messages Sent] )
+
+Campaign Cost = SUM ( campaigns[cost] )
+
+Campaign Revenue = SUM ( campaigns[revenue_generated] )
+
+Cost per Conversion = DIVIDE ( [Campaign Cost], SUM ( campaigns[conversions] ) )
+
+Campaign ROI = DIVIDE ( [Campaign Revenue] - [Campaign Cost], [Campaign Cost] )
+
+// ---------- Sponsorship ----------
+Sponsor Impressions = SUM ( sponsorship[impressions] )
+
+Sponsor Engagements = SUM ( sponsorship[engagements] )
+
+Engagement Rate % = DIVIDE ( [Sponsor Engagements], [Sponsor Impressions] )
+
+Estimated Partner Value = SUM ( sponsorship[estimated_value] )
+
+Active Partners = DISTINCTCOUNT ( sponsorship[sponsor_id] )
+
+// ---------- Calculated columns ----------
+// table: games, sort by column: game_date
+Game Label = FORMAT ( games[game_date], "MMM DD" ) & " " & games[opponent]
+
+// table: games, sort by column: Month Sort
+Month = FORMAT ( games[game_date], "MMM YYYY" )
+
+// table: games
+Month Sort = YEAR ( games[game_date] ) * 100 + MONTH ( games[game_date] )
+
+// table: games
+Day Sort = WEEKDAY ( games[game_date], 2 )

@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/suns_hub.db
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

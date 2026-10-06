@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "d82effdb1b5c45838226",
+  "position": {
+    "x": 20,
+    "y": 428,
+    "z": 14000,
+    "height": 258,
+    "width": 430,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "Game Label"
+                }
+              },
+              "queryRef": "games.Game Label",
+              "nativeQueryRef": "Game Label",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "games"
+                    }
+                  },
+                  "Property": "opponent_tier"
+                }
+              },
+              "queryRef": "games.opponent_tier",
+              "nativeQueryRef": "opponent_tier"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Tickets Scanned"
+                }
+              },
+              "queryRef": "_Measures.Tickets Scanned",
+              "nativeQueryRef": "Tickets Scanned",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Sponsor Engagements"
+                }
+              },
+              "queryRef": "_Measures.Sponsor Engagements",
+              "nativeQueryRef": "Sponsor Engagements"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Sponsor engagement versus attendance by game'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

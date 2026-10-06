@@ -1,0 +1,228 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "2c64741573814d188393",
+  "position": {
+    "x": 460,
+    "y": 428,
+    "z": 15000,
+    "height": 258,
+    "width": 800,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "campaigns"
+                    }
+                  },
+                  "Property": "campaign_name"
+                }
+              },
+              "queryRef": "campaigns.campaign_name",
+              "nativeQueryRef": "campaign_name",
+              "displayName": "Campaign"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "campaigns"
+                    }
+                  },
+                  "Property": "campaign_type"
+                }
+              },
+              "queryRef": "campaigns.campaign_type",
+              "nativeQueryRef": "campaign_type",
+              "displayName": "Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "campaigns"
+                    }
+                  },
+                  "Property": "channel"
+                }
+              },
+              "queryRef": "campaigns.channel",
+              "nativeQueryRef": "channel",
+              "displayName": "Channel"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "campaigns"
+                    }
+                  },
+                  "Property": "target_segment"
+                }
+              },
+              "queryRef": "campaigns.target_segment",
+              "nativeQueryRef": "target_segment",
+              "displayName": "Target"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Campaign Cost"
+                }
+              },
+              "queryRef": "_Measures.Campaign Cost",
+              "nativeQueryRef": "Campaign Cost",
+              "displayName": "Cost"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Messages Sent"
+                }
+              },
+              "queryRef": "_Measures.Messages Sent",
+              "nativeQueryRef": "Messages Sent",
+              "displayName": "Sent"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Response Rate %"
+                }
+              },
+              "queryRef": "_Measures.Response Rate %",
+              "nativeQueryRef": "Response Rate %",
+              "displayName": "Response"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Conversion Rate %"
+                }
+              },
+              "queryRef": "_Measures.Conversion Rate %",
+              "nativeQueryRef": "Conversion Rate %",
+              "displayName": "Conversion"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Campaign Revenue"
+                }
+              },
+              "queryRef": "_Measures.Campaign Revenue",
+              "nativeQueryRef": "Campaign Revenue",
+              "displayName": "Revenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Cost per Conversion"
+                }
+              },
+              "queryRef": "_Measures.Cost per Conversion",
+              "nativeQueryRef": "Cost per Conversion",
+              "displayName": "Cost per conv"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Campaign ROI"
+                }
+              },
+              "queryRef": "_Measures.Campaign ROI",
+              "nativeQueryRef": "Campaign ROI",
+              "displayName": "ROI"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Campaign ROI"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Campaign detail'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

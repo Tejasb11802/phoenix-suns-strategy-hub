@@ -1,0 +1,13 @@
+campaign_id,campaign_name,campaign_type,channel,target_segment,cost,impressions,clicks,conversions,response_rate_pct,conversion_rate_pct,revenue_generated,cost_per_conversion,roi,roi_rank
+C09,App Flash Sale,Promotion,Push,Past Buyers,6000.0,13000,1338,546,10.3,4.2,135993.0,10.99,21.67,1
+C11,Fan Appreciation Finale,Retention,Email,Past Buyers,14000.0,15000,1931,810,12.9,5.4,242625.0,17.28,16.33,2
+C03,Holiday Family Pack,Promotion,Email,Past Buyers,13000.0,12000,1694,696,14.1,5.8,212878.0,18.68,15.38,3
+C06,Mini Plan Invitation,Upsell,Email,Frequent Buyers,7000.0,2800,706,322,25.2,11.5,112280.0,21.74,15.04,4
+C01,Opening Night Launch,Acquisition,Email,Prospects,8500.0,14000,1323,476,9.4,3.4,134513.0,17.86,14.83,5
+C08,Second Game Offer,Retention,Email,Past Buyers,11000.0,10000,1300,520,13.0,5.2,150674.0,21.15,12.7,6
+C04,Weeknight Value Bundle,Promotion,SMS,Past Buyers,15000.0,8000,1575,624,19.7,7.8,185947.0,24.04,11.4,7
+C05,We Miss You Email,Win-Back,Email,Lapsed Buyers,9000.0,8500,564,255,6.6,3.0,81951.0,35.29,8.11,8
+C10,Come Back SMS,Win-Back,SMS,Lapsed Buyers,10000.0,4500,627,207,13.9,4.6,46862.0,48.31,3.69,9
+C12,Search Retargeting,Acquisition,Paid Search,Prospects,20000.0,9000,587,189,6.5,2.1,43380.0,105.82,1.17,10
+C02,New Fan Social Offer,Acquisition,Paid Social,Prospects,40000.0,18000,664,198,3.7,1.1,62718.0,202.02,0.57,11
+C07,College Night Social,Acquisition,Paid Social,Prospects,28000.0,14000,434,140,3.1,1.0,39555.0,200.0,0.41,12

@@ -1,0 +1,66 @@
+table campaign_responses
+	lineageTag: 8986b762-aced-4818-81d3-0d6ed0b6bbf1
+
+	column response_id
+		dataType: string
+		lineageTag: e81ace09-51c9-4843-b001-2473a5bbfde8
+		summarizeBy: none
+		sourceColumn: response_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_id
+		dataType: string
+		lineageTag: c26ae99b-0352-48bd-9b60-24ff40ec3755
+		summarizeBy: none
+		sourceColumn: campaign_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column fan_id
+		dataType: string
+		lineageTag: 960e9f2a-24d5-478a-b082-e25f85639bab
+		summarizeBy: none
+		sourceColumn: fan_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column opened
+		dataType: int64
+		formatString: 0
+		lineageTag: 7abe9f7d-4a67-4b44-915d-d762a3d4f1e3
+		summarizeBy: sum
+		sourceColumn: opened
+
+		annotation SummarizationSetBy = Automatic
+
+	column clicked
+		dataType: int64
+		formatString: 0
+		lineageTag: 0817eca2-4c48-4c8e-a2f8-bc0068f396e9
+		summarizeBy: sum
+		sourceColumn: clicked
+
+		annotation SummarizationSetBy = Automatic
+
+	column converted
+		dataType: int64
+		formatString: 0
+		lineageTag: 600ef057-68cb-4d9f-8b55-69eef7b2d8c3
+		summarizeBy: sum
+		sourceColumn: converted
+
+		annotation SummarizationSetBy = Automatic
+
+	partition campaign_responses = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\campaign_responses.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"response_id", type text}, {"campaign_id", type text}, {"fan_id", type text}, {"opened", Int64.Type}, {"clicked", Int64.Type}, {"converted", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

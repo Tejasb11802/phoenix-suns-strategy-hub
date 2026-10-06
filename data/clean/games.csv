@@ -1,0 +1,42 @@
+game_id,opponent,game_date,weekday,day_type,game_type,home_away,opponent_tier,capacity
+G01,Miami Heat,2025-10-23,Thursday,Weekday,Opening Night,Home,Standard,17000
+G02,Houston Rockets,2025-10-27,Monday,Weekday,Regular Season,Home,Standard,17000
+G03,Houston Rockets,2025-10-31,Friday,Weekend,Regular Season,Home,Standard,17000
+G04,Brooklyn Nets,2025-11-04,Tuesday,Weekday,Regular Season,Home,Value,17000
+G05,Indiana Pacers,2025-11-10,Monday,Weekday,Regular Season,Home,Standard,17000
+G06,San Antonio Spurs,2025-11-14,Friday,Weekend,Regular Season,Home,Marquee,17000
+G07,Los Angeles Lakers,2025-11-18,Tuesday,Weekday,Regular Season,Home,Marquee,17000
+G08,Milwaukee Bucks,2025-11-21,Friday,Weekend,Regular Season,Home,Standard,17000
+G09,Sacramento Kings,2025-11-27,Thursday,Weekday,Regular Season,Home,Standard,17000
+G10,LA Clippers,2025-11-30,Sunday,Weekend,Regular Season,Home,Standard,17000
+G11,Dallas Mavericks,2025-12-04,Thursday,Weekday,Regular Season,Home,Standard,17000
+G12,Oklahoma City Thunder,2025-12-10,Wednesday,Weekday,Regular Season,Home,Marquee,17000
+G13,Orlando Magic,2025-12-13,Saturday,Weekend,Regular Season,Home,Standard,17000
+G14,Oklahoma City Thunder,2025-12-18,Thursday,Weekday,Regular Season,Home,Marquee,17000
+G15,Minnesota Timberwolves,2025-12-21,Sunday,Weekend,Regular Season,Home,Standard,17000
+G16,New Orleans Pelicans,2025-12-25,Thursday,Weekday,City Edition Night,Home,Value,17000
+G17,Memphis Grizzlies,2025-12-30,Tuesday,Weekday,Regular Season,Home,Standard,17000
+G18,Utah Jazz,2026-01-03,Saturday,Weekend,Family Night,Home,Value,17000
+G19,Detroit Pistons,2026-01-07,Wednesday,Weekday,Regular Season,Home,Standard,17000
+G20,Chicago Bulls,2026-01-12,Monday,Weekday,Regular Season,Home,Value,17000
+G21,Golden State Warriors,2026-01-15,Thursday,Weekday,Regular Season,Home,Marquee,17000
+G22,Los Angeles Lakers,2026-01-21,Wednesday,Weekday,Regular Season,Home,Marquee,17000
+G23,Sacramento Kings,2026-01-25,Sunday,Weekend,Regular Season,Home,Standard,17000
+G24,Minnesota Timberwolves,2026-01-29,Thursday,Weekday,Regular Season,Home,Standard,17000
+G25,Charlotte Hornets,2026-02-02,Monday,Weekday,College Night,Home,Value,17000
+G26,Denver Nuggets,2026-02-06,Friday,Weekend,Regular Season,Home,Marquee,17000
+G27,San Antonio Spurs,2026-02-10,Tuesday,Weekday,Regular Season,Home,Marquee,17000
+G28,Dallas Mavericks,2026-02-15,Sunday,Weekend,Regular Season,Home,Standard,17000
+G29,Golden State Warriors,2026-02-19,Thursday,Weekday,Regular Season,Home,Marquee,17000
+G30,LA Clippers,2026-02-23,Monday,Weekday,Regular Season,Home,Standard,17000
+G31,New York Knicks,2026-02-27,Friday,Weekend,Regular Season,Home,Marquee,17000
+G32,Boston Celtics,2026-03-03,Tuesday,Weekday,Regular Season,Home,Marquee,17000
+G33,Cleveland Cavaliers,2026-03-09,Monday,Weekday,Regular Season,Home,Standard,17000
+G34,Portland Trail Blazers,2026-03-12,Thursday,Weekday,Military Appreciation Night,Home,Value,17000
+G35,Atlanta Hawks,2026-03-16,Monday,Weekday,Regular Season,Home,Standard,17000
+G36,Utah Jazz,2026-03-21,Saturday,Weekend,Regular Season,Home,Value,17000
+G37,Philadelphia 76ers,2026-03-24,Tuesday,Weekday,Throwback Night,Home,Standard,17000
+G38,Memphis Grizzlies,2026-03-30,Monday,Weekday,Regular Season,Home,Standard,17000
+G39,Washington Wizards,2026-04-03,Friday,Weekend,Regular Season,Home,Value,17000
+G40,Toronto Raptors,2026-04-06,Monday,Weekday,Kids Day,Home,Value,17000
+G41,Denver Nuggets,2026-04-11,Saturday,Weekend,Fan Appreciation Night,Home,Marquee,17000

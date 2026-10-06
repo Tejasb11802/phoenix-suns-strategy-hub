@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "9a0a5cf572ea485cb62f",
+  "position": {
+    "x": 20,
+    "y": 428,
+    "z": 14000,
+    "height": 258,
+    "width": 330,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "f_score"
+                }
+              },
+              "queryRef": "fan_segments.f_score",
+              "nativeQueryRef": "f_score",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fan_segments"
+                    }
+                  },
+                  "Property": "r_score"
+                }
+              },
+              "queryRef": "fan_segments.r_score",
+              "nativeQueryRef": "r_score",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Buyers in Segment"
+                }
+              },
+              "queryRef": "_Measures.Buyers in Segment",
+              "nativeQueryRef": "Buyers in Segment"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'RFM grid: recency score (rows) by frequency score'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,6 @@
+campaign_type,campaigns,impressions,conversions,conversion_rate_pct,cost,revenue_generated,roi
+Upsell,1,2800,322,11.5,7000.0,112280.0,15.04
+Retention,2,25000,1330,5.32,25000.0,393299.0,14.73
+Promotion,3,33000,1866,5.65,34000.0,534818.0,14.73
+Win-Back,2,13000,462,3.55,19000.0,128813.0,5.78
+Acquisition,4,55000,1003,1.82,96500.0,280166.0,1.9

@@ -1,0 +1,139 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1390.1535103035726,
+            "y": 367.61073718784792
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "6a8e6e1d-c9ac-4947-a1c4-289d4c97ec82",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 662.860673726013,
+            "y": 684.85659699637142
+          },
+          "nodeIndex": "attendance",
+          "nodeLineageTag": "263eb58a-63d6-477d-a1c1-9dd3dbdd72d0",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 839.67565120099925,
+            "y": 114.28623856890169
+          },
+          "nodeIndex": "campaign_responses",
+          "nodeLineageTag": "8986b762-aced-4818-81d3-0d6ed0b6bbf1",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 553.46445289564576,
+            "y": -50
+          },
+          "nodeIndex": "campaigns",
+          "nodeLineageTag": "6eb7e1e9-9524-40f0-b259-2cff09c881fc",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1156.1535103035726,
+            "y": 396.98079320892975
+          },
+          "nodeIndex": "fan_segments",
+          "nodeLineageTag": "c4bcee6a-831c-49cc-a388-6e588142b880",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 869.87098520253767,
+            "y": 407.91477712143774
+          },
+          "nodeIndex": "fans",
+          "nodeLineageTag": "350a327f-c176-40c3-b59e-a68c9fe30a44",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.68608301091535,
+            "y": 685.22147437569583
+          },
+          "nodeIndex": "games",
+          "nodeLineageTag": "3765c0de-d4e1-4d6a-8500-1af5a5e415f5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 436.69364883818042
+          },
+          "nodeIndex": "sponsorship",
+          "nodeLineageTag": "bc988b06-d2d7-4f29-8a69-21e83de55287",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 552.59002450028652,
+            "y": 331.49296546786991
+          },
+          "nodeIndex": "ticket_sales",
+          "nodeLineageTag": "fd1422a0-afca-4ea5-a993-d0b7016482b4",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

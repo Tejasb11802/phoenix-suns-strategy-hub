@@ -1,0 +1,81 @@
+table sponsorship
+	lineageTag: bc988b06-d2d7-4f29-8a69-21e83de55287
+
+	column sponsorship_id
+		dataType: string
+		lineageTag: 0429f3cb-4676-4feb-9a09-ca7ebf168eab
+		summarizeBy: none
+		sourceColumn: sponsorship_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sponsor_id
+		dataType: string
+		lineageTag: e4de34ad-06cb-4878-b666-f6c9b9bfaf75
+		summarizeBy: none
+		sourceColumn: sponsor_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sponsor_name
+		dataType: string
+		lineageTag: 94642968-bce6-4121-bbcd-251bb50973c4
+		summarizeBy: none
+		sourceColumn: sponsor_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column activation_name
+		dataType: string
+		lineageTag: 61c23b05-1d3e-4d27-9a5f-a5872f732bdd
+		summarizeBy: none
+		sourceColumn: activation_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column game_id
+		dataType: string
+		lineageTag: d45929f5-22e7-4cf3-93ec-ff5360208c53
+		summarizeBy: none
+		sourceColumn: game_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column impressions
+		dataType: int64
+		formatString: 0
+		lineageTag: b50b7ad8-0b3f-47fb-ad89-0d6a9b7281da
+		summarizeBy: sum
+		sourceColumn: impressions
+
+		annotation SummarizationSetBy = Automatic
+
+	column engagements
+		dataType: int64
+		formatString: 0
+		lineageTag: b06fea20-0fb6-4e4a-9a89-db80ca0733b0
+		summarizeBy: sum
+		sourceColumn: engagements
+
+		annotation SummarizationSetBy = Automatic
+
+	column estimated_value
+		dataType: double
+		lineageTag: 37ba6987-7fb8-42a5-b2f8-12491f3e8138
+		summarizeBy: sum
+		sourceColumn: estimated_value
+
+		annotation SummarizationSetBy = Automatic
+
+	partition sponsorship = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\sponsorship.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"sponsorship_id", type text}, {"sponsor_id", type text}, {"sponsor_name", type text}, {"activation_name", type text}, {"game_id", type text}, {"impressions", Int64.Type}, {"engagements", Int64.Type}, {"estimated_value", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

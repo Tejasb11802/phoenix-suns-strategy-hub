@@ -1,0 +1,38 @@
+relationship 1be91278-d551-449d-b45f-9b774aa3b0d6
+	fromColumn: ticket_sales.fan_id
+	toColumn: fans.fan_id
+
+relationship 49ff4a0b-7e15-4457-97f9-48a3ed0af089
+	fromColumn: attendance.fan_id
+	toColumn: fans.fan_id
+
+relationship 43b58c07-e895-4ee2-8e97-c0287e1920c3
+	fromColumn: campaign_responses.fan_id
+	toColumn: fans.fan_id
+
+relationship c60ba6b9-4799-4a4d-9daa-900f1b5edda5
+	fromColumn: ticket_sales.game_id
+	toColumn: games.game_id
+
+relationship d6fe73a9-e941-4e74-9a16-b07eca30f9de
+	fromColumn: attendance.game_id
+	toColumn: games.game_id
+
+relationship 44f6fa99-b77e-4837-b42f-68fa2c003d8a
+	fromColumn: sponsorship.game_id
+	toColumn: games.game_id
+
+relationship b5a0d698-2678-4147-81af-e02de31da94c
+	fromColumn: campaign_responses.campaign_id
+	toColumn: campaigns.campaign_id
+
+relationship cb9bc125-590d-4f3f-a43a-f8625e7b5f68
+	fromColumn: ticket_sales.campaign_id
+	toColumn: campaigns.campaign_id
+
+relationship b2b1ccce-ff7f-4fe3-b223-7ff390b99dfd
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: fan_segments.fan_id
+	toColumn: fans.fan_id
+

@@ -1,0 +1,191 @@
+table fan_segments
+	lineageTag: c4bcee6a-831c-49cc-a388-6e588142b880
+
+	column fan_id
+		dataType: string
+		lineageTag: ffdfc10f-d628-42ba-80e2-b90ff24be1ec
+		summarizeBy: none
+		sourceColumn: fan_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment
+		dataType: string
+		lineageTag: 16f63d1e-88a7-4cc4-993d-8f546d99b966
+		summarizeBy: none
+		sourceColumn: segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column plan_candidate
+		dataType: int64
+		formatString: 0
+		lineageTag: 3ab3b1be-effa-4457-84c1-588e3b8b95aa
+		summarizeBy: none
+		sourceColumn: plan_candidate
+
+		annotation SummarizationSetBy = Automatic
+
+	column games_purchased
+		dataType: int64
+		formatString: 0
+		lineageTag: 6fb49c96-6805-4ff4-baad-93f44f39a252
+		summarizeBy: none
+		sourceColumn: games_purchased
+
+		annotation SummarizationSetBy = Automatic
+
+	column games_attended
+		dataType: int64
+		formatString: 0
+		lineageTag: ba02983b-43bb-4baa-95dc-d6112ec32cb8
+		summarizeBy: none
+		sourceColumn: games_attended
+
+		annotation SummarizationSetBy = Automatic
+
+	column tickets_purchased
+		dataType: int64
+		formatString: 0
+		lineageTag: 12cf253a-b9c9-4466-b407-4c5f58776217
+		summarizeBy: none
+		sourceColumn: tickets_purchased
+
+		annotation SummarizationSetBy = Automatic
+
+	column tickets_scanned
+		dataType: int64
+		formatString: 0
+		lineageTag: 1468dc74-11fb-4b80-a1bc-b02c5a6b39d9
+		summarizeBy: none
+		sourceColumn: tickets_scanned
+
+		annotation SummarizationSetBy = Automatic
+
+	column attendance_rate
+		dataType: double
+		lineageTag: beb16985-2bdc-4024-a699-aaa90d4c00a5
+		summarizeBy: none
+		sourceColumn: attendance_rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_spend
+		dataType: double
+		lineageTag: 1b15a93c-fa49-4d04-a123-32c68d7e50fa
+		summarizeBy: none
+		sourceColumn: total_spend
+
+		annotation SummarizationSetBy = Automatic
+
+	column recency_days
+		dataType: int64
+		formatString: 0
+		lineageTag: 71e116a0-ac76-4f26-9070-25bc4da1611b
+		summarizeBy: none
+		sourceColumn: recency_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column r_score
+		dataType: int64
+		formatString: 0
+		lineageTag: b9d9d44e-7f05-4876-aac6-0f7eeebc124f
+		summarizeBy: none
+		sourceColumn: r_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column f_score
+		dataType: int64
+		formatString: 0
+		lineageTag: 66c55d3c-85f7-4681-a888-9459635da0d4
+		summarizeBy: none
+		sourceColumn: f_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column m_score
+		dataType: int64
+		formatString: 0
+		lineageTag: 46bea5f2-2710-4b1f-adce-2cbc717bea4d
+		summarizeBy: none
+		sourceColumn: m_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column rfm_score
+		dataType: int64
+		formatString: 0
+		lineageTag: c8d515be-255c-43b2-bf3e-3870f12cadb4
+		summarizeBy: none
+		sourceColumn: rfm_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column messages_received
+		dataType: int64
+		formatString: 0
+		lineageTag: 969db2a9-19b1-474c-b54a-001a20586640
+		summarizeBy: none
+		sourceColumn: messages_received
+
+		annotation SummarizationSetBy = Automatic
+
+	column messages_opened
+		dataType: int64
+		formatString: 0
+		lineageTag: b688c3d5-690c-42dc-8e12-45b5b71b0544
+		summarizeBy: none
+		sourceColumn: messages_opened
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_conversions
+		dataType: int64
+		formatString: 0
+		lineageTag: 2bd427f2-5709-4565-97e9-8fa7d2c7f5d9
+		summarizeBy: none
+		sourceColumn: campaign_conversions
+
+		annotation SummarizationSetBy = Automatic
+
+	column engagement_score
+		dataType: int64
+		formatString: 0
+		lineageTag: 417c98c2-5d15-4f7c-bb1d-bbbeb955250e
+		summarizeBy: none
+		sourceColumn: engagement_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column bought_first_half
+		dataType: int64
+		formatString: 0
+		lineageTag: bf526224-5f81-4e14-b817-ac616b5d7792
+		summarizeBy: none
+		sourceColumn: bought_first_half
+
+		annotation SummarizationSetBy = Automatic
+
+	column bought_second_half
+		dataType: int64
+		formatString: 0
+		lineageTag: c2bc31a0-b8d4-46eb-b3ab-ab8d6520c6ea
+		summarizeBy: none
+		sourceColumn: bought_second_half
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fan_segments = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\fan_segments.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"fan_id", type text}, {"segment", type text}, {"plan_candidate", Int64.Type}, {"games_purchased", Int64.Type}, {"games_attended", Int64.Type}, {"tickets_purchased", Int64.Type}, {"tickets_scanned", Int64.Type}, {"attendance_rate", type number}, {"total_spend", type number}, {"recency_days", Int64.Type}, {"r_score", Int64.Type}, {"f_score", Int64.Type}, {"m_score", Int64.Type}, {"rfm_score", Int64.Type}, {"messages_received", Int64.Type}, {"messages_opened", Int64.Type}, {"campaign_conversions", Int64.Type}, {"engagement_score", Int64.Type}, {"bought_first_half", Int64.Type}, {"bought_second_half", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
